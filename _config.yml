@@ -1,0 +1,19 @@
+# Site settings
+title: HKU PL Group
+permalink: 'pretty'
+exclude: ['Gemfile', 'Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', 'README.md']
+# email: not yet set
+description: > # this means to ignore newlines until "baseurl:"
+  Programming Languages Group from The University of Hong Kong
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://hkuplg.github.io" # the base hostname & protocol for your site
+#twitter_username: hkuplg
+github_username:  hkuplg
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+paginate: 10
