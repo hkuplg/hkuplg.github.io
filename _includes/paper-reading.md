@@ -14,20 +14,20 @@
 | Aug 28, 2016 | Joao | [Extensible Records With Scoped Labels](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/scopedlabels.pdf) |
 | Aug 22, 2016 | Tomas | [An Empirical Study on the Impact of C++ Lambdas and Programmer ](http://dl.acm.org/authorize.cfm?key=N03390) |
 | Aug 16, 2016 | Ningning | [Programming and Reasoning with Algebraic Effects and Dependent Types](https://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf) |
-| Jul 31, 2016 | Huang | [Finger trees: a simple general-purpose data structure](*http://www.cs.ox.ac.uk/ralf.hinze/publications/FingerTrees.pdf*) |
+| Jul 31, 2016 | Huang | [Finger trees: a simple general-purpose data structure](http://www.cs.ox.ac.uk/ralf.hinze/publications/FingerTrees.pdf) |
 | Jul 25, 2016 | Haoyuan | [Data types a la carte](http://www.cs.ru.nl/~W.Swierstra/Publications/DataTypesALaCarte.pdf) |
-| Jul 18, 2016 | Weixin | [From F to DOT: Type Soundness Proofs with Definitional Interpreters](*http://arxiv.org/pdf/1510.05216.pdf) |
+| Jul 18, 2016 | Weixin | [From F to DOT: Type Soundness Proofs with Definitional Interpreters](http://arxiv.org/pdf/1510.05216.pdf) |
 | Jul 5, 2016 | Yanlin | [CZ: Multiple Inheritance Without Diamonds](https://www.cs.cmu.edu/~donna/public/oopsla09.pdf) |
 | June 24, 2016 | Tomas | [Fun with Functional Dependencies](http://www.cse.chalmers.se/~hallgren/Papers/Hallgren01.pdf) |
 | April 29, 2016 | Jeremy | [Idioms: applicative programming with effects](http://strictlypositive.org/Idiom.pdf) |
 | April 22, 2016 | Bruno | [The Essence of Inheritance](http://arxiv.org/pdf/1601.02059v1.pdf) |
 | April 15, 2016 | Joao | [Engineering Formal Metatheory](http://www.chargueraud.org/research/2007/binders/binders_popl_08.pdf) |
 | April 8, 2016 | Ningning | [Complete and Easy Bidirectional Typechecking for Higher-Rank ](https://www.mpi-sws.org/~neelk/bidir.pdf) |
-| Mar 15, 2016 | Huang | [*A Supercompiler for Core Haskell*](http://ndmitchell.com/downloads/paper-a_supercompiler_for_core_haskell-01_may_2008.pdf) |
-| March 11, 2016 | Weixin | [*Design Patterns as Higher-Order Datatype-Generic Programs*](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/hodgp.pdf) |
+| Mar 15, 2016 | Huang | [A Supercompiler for Core Haskell](http://ndmitchell.com/downloads/paper-a_supercompiler_for_core_haskell-01_may_2008.pdf) |
+| March 11, 2016 | Weixin | [Design Patterns as Higher-Order Datatype-Generic Programs](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/hodgp.pdf) |
 | March 4, 2016 | Haoyuan | [Folding Domain-Specific Languages: Deep and Shallow Embeddings](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/embedding.pdf) |
 | Feb 26, 2016 | Yanlin | [The State of the Art in Language Workbenches](http://www.informatik.uni-marburg.de/~seba/publications/language-workbench-state.pdf) |
-| Jan 22, 2016 | Jeremy | [*Extensible Effects - An Alternative to Monad Transformers*](https://www.cs.indiana.edu/~sabry/papers/exteff.pdf) |
+| Jan 22, 2016 | Jeremy | [Extensible Effects - An Alternative to Monad Transformers](https://www.cs.indiana.edu/~sabry/papers/exteff.pdf) |
 | Dec 17, 2015 | Bruno  | [Elaborating intersection and union types](http://www.cs.cmu.edu/~joshuad/papers/intcomp-jfp/Dunfield14_elaboration.pdf) |
 | Dec 3, 2015 | George | [Stochastic Lambda Calculus and Monads of Probability Distributions](https://www.cs.tufts.edu/~nr/pubs/pmonad.pdf) |
 | Nov 26, 2015 | Tomas | [Dedalus: Datalog in Time and Space](http://db.cs.berkeley.edu/papers/datalog2011-dedalus.pdf) |
