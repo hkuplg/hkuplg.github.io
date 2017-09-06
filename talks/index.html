@@ -11,7 +11,7 @@ layout: default
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.date | date: "%Y.%m.%-d." }}
+            {{ post.date | date: "%Y.%-m.%-d." }}
             {{ post.title }}</a>
           <small>{{ post.authors }}</small>
         </h2>
