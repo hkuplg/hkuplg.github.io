@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Modular Unfolds"
 authors:  "Haoyuan"
-time:     2017-09-06 10:00:00
+date:     2017-09-06 10:00:00
 venue:   "CB 313"
 categories: "Haoyuan" Seminar 2017
 --- 

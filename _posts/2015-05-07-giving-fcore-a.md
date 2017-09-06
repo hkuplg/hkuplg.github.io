@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Giving FCore a Promotion: by adding a dependently typed core"
 authors:  "Jeremy"
-time:     2015-05-07 13:45:00
+date:     2015-05-07 13:45:00
 venue:   "CB 313"
 categories: "Jeremy" Seminar 2015
 --- 

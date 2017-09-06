@@ -2,7 +2,7 @@
 layout:  post 
 title:   "When EVF meets Scala"
 authors:  "Weixin"
-time:     2017-05-31 10:00:00
+date:     2017-05-31 10:00:00
 venue:   "CB 313"
 categories: "Weixin" Seminar 2017
 --- 

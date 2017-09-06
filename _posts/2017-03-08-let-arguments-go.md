@@ -2,7 +2,7 @@
 layout:  post 
 title:   "let arguments go first, again"
 authors:  "Ningning"
-time:     2017-03-08 10:00:00
+date:     2017-03-08 10:00:00
 venue:   "CB 313"
 categories: "Ningning" Seminar 2017
 --- 

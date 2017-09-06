@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Types in PFPL"
 authors:  "Ningning"
-time:     2016-10-28 10:30:00
+date:     2016-10-28 10:30:00
 venue:   "CB 313"
 categories: "Ningning" Seminar 2016
 --- 

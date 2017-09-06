@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Building modular high-performance interpreters with Truffle + OA"
 authors:  "Yanlin"
-time:     2015-06-04 13:45:00
+date:     2015-06-04 13:45:00
 venue:   "CB 313"
 categories: "Yanlin" Seminar 2015
 --- 

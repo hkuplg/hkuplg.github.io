@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Improved F& and a source-level syntax support for extensibility"
 authors:  "Geroge"
-time:     2015-04-23 13:45:00
+date:     2015-04-23 13:45:00
 venue:   "CB 313"
 categories: "Geroge" Seminar 2015
 --- 

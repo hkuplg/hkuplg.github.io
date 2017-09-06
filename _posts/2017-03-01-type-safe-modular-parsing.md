@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Type-safe Modular Parsing"
 authors:  "Li Huang"
-time:     2017-03-01 10:00:00
+date:     2017-03-01 10:00:00
 venue:   "CB 313"
 categories: "Li Huang" Seminar 2017
 --- 

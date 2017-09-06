@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Introduction of Type Inference"
 authors:  "Ningning"
-time:     2015-10-29 14:30:00
+date:     2015-10-29 14:30:00
 venue:   "CB 313"
 categories: "Ningning" Seminar 2015
 --- 

@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Family Polymorphism in Java, continued"
 authors:  "Haoyuan"
-time:     2016-04-08 16:00:00
+date:     2016-04-08 16:00:00
 venue:   "CB 328"
 categories: "Haoyuan" Seminar 2016
 --- 

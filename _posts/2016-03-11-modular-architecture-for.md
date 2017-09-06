@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Modular Architecture for Code and Metadata Sharing"
 authors:  "Tomas"
-time:     2016-03-11 16:00:00
+date:     2016-03-11 16:00:00
 venue:   "CB 313"
 categories: "Tomas" Seminar 2016
 --- 

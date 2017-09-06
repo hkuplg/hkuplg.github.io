@@ -2,7 +2,7 @@
 layout:  post 
 title:   "A more theoretical view of Intersection/Union Types"
 authors:  "Jimmy"
-time:     2016-11-18 10:30:00
+date:     2016-11-18 10:30:00
 venue:   "CB 313"
 categories: "Jimmy" Seminar 2016
 --- 

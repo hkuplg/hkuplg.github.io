@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Object Algebras as Visitors"
 authors:  "Weixin"
-time:     2016-01-07 14:00:00
+date:     2016-01-07 14:00:00
 venue:   "CB 308"
 categories: "Weixin" Seminar 2016
 --- 

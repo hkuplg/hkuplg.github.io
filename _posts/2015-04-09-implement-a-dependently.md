@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Implement a dependently typed core language in Haskell"
 authors:  "Linus"
-time:     2015-04-09 13:45:00
+date:     2015-04-09 13:45:00
 venue:   "CB 313"
 categories: "Linus" Seminar 2015
 --- 

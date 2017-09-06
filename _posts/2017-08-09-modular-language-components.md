@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Modular language components with explicit ASTs"
 authors:  "Li Huang"
-time:     2017-08-09 10:00:00
+date:     2017-08-09 10:00:00
 venue:   "CB 313"
 categories: "Li Huang" Seminar 2017
 --- 

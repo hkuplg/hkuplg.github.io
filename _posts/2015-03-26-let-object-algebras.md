@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Let Object Algebras Fly — Explore pattern matching in OAs"
 authors:  "Yanlin"
-time:     2015-03-26 13:45:00
+date:     2015-03-26 13:45:00
 venue:   "CB 313"
 categories: "Yanlin" Seminar 2015
 --- 

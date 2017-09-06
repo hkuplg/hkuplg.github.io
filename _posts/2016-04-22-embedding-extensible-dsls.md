@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Embedding Extensible DSLs in Object-Oriented Languages"
 authors:  "Weixin"
-time:     2016-04-22 16:00:00
+date:     2016-04-22 16:00:00
 venue:   "CB 328"
 categories: "Weixin" Seminar 2016
 --- 

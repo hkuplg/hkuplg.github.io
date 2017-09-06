@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Persistent Code Identifiers for Dependency Management"
 authors:  "Tomas"
-time:     2017-04-26 10:00:00
+date:     2017-04-26 10:00:00
 venue:   "CB 313"
 categories: "Tomas" Seminar 2017
 --- 

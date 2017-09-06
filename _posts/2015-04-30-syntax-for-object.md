@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Syntax for Object Algebras"
 authors:  "Haoyuan"
-time:     2015-04-30 13:45:00
+date:     2015-04-30 13:45:00
 venue:   "CB 313"
 categories: "Haoyuan" Seminar 2015
 --- 

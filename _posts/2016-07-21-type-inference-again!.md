@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Type Inference Again!"
 authors:  "Xie Ningning"
-time:     2016-07-21 15:00:00
+date:     2016-07-21 15:00:00
 venue:   "CB 313"
 categories: "Xie Ningning" Seminar 2016
 --- 

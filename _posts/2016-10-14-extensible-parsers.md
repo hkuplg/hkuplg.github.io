@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Extensible Parsers"
 authors:  "Li Huang"
-time:     2016-10-14 10:30:00
+date:     2016-10-14 10:30:00
 venue:   "CB 313"
 categories: "Li Huang" Seminar 2016
 --- 

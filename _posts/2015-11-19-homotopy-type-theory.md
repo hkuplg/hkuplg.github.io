@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Homotopy Type Theory Primer"
 authors:  "George"
-time:     2015-11-19 14:30:00
+date:     2015-11-19 14:30:00
 venue:   "CB 313"
 categories: "George" Seminar 2015
 --- 

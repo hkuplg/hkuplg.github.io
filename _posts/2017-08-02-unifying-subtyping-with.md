@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Unifying Subtyping with Typing, Reloaded"
 authors:  "Linus"
-time:     2017-08-02 10:00:00
+date:     2017-08-02 10:00:00
 venue:   "CB 313"
 categories: "Linus" Seminar 2017
 --- 

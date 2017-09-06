@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Symbolic Property-based Testing for Functional Languages"
 authors:  "Weixin"
-time:     2015-09-24 14:30:00
+date:     2015-09-24 14:30:00
 venue:   "CB 313"
 categories: "Weixin" Seminar 2015
 --- 

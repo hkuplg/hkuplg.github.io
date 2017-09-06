@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Introduction to Supercompilation"
 authors:  "Li Huang"
-time:     2016-02-26 16:00:00
+date:     2016-02-26 16:00:00
 venue:   "CB 328"
 categories: "Li Huang" Seminar 2016
 --- 

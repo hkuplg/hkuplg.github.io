@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Disjoint Intersection Types"
 authors:  "João"
-time:     2016-04-01 16:00:00
+date:     2016-04-01 16:00:00
 venue:   "CB 328"
 categories: "João" Seminar 2016
 --- 

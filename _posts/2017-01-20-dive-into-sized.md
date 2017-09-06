@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Dive into Sized Types & Copatterns"
 authors:  "Jeremy"
-time:     2017-01-20 10:30:00
+date:     2017-01-20 10:30:00
 venue:   "CB 313"
 categories: "Jeremy" Seminar 2017
 --- 

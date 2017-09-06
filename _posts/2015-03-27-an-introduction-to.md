@@ -2,7 +2,7 @@
 layout:  post 
 title:   "An introduction to context-oriented programming and an approach"
 authors:  "Prof. Aotani Tomoyuki"
-time:     2015-03-27 15:00:00
+date:     2015-03-27 15:00:00
 venue:   "CB 328"
 categories: "Prof. Aotani Tomoyuki" Seminar 2015
 --- 

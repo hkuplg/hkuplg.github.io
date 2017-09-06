@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Return of Living Datalog"
 authors:  "Tomas"
-time:     2016-06-23 15:00:00
+date:     2016-06-23 15:00:00
 venue:   "CB 313"
 categories: "Tomas" Seminar 2016
 --- 

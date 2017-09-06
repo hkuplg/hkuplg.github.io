@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Disjoint Intersection Types and Disjoint Quantification"
 authors:  "John"
-time:     2016-07-28 15:00:00
+date:     2016-07-28 15:00:00
 venue:   "CB 313"
 categories: "John" Seminar 2016
 --- 

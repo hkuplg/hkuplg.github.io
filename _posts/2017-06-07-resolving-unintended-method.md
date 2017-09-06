@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Resolving Unintended Method Conflicts"
 authors:  "Yanlin"
-time:     2017-06-07 10:00:00
+date:     2017-06-07 10:00:00
 venue:   "CB 313"
 categories: "Yanlin" Seminar 2017
 --- 

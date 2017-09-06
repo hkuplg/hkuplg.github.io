@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Constructive Logic"
 authors:  "Ningning"
-time:     2016-03-04 16:00:00
+date:     2016-03-04 16:00:00
 venue:   "CB 328"
 categories: "Ningning" Seminar 2016
 --- 

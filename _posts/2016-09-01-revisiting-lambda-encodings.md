@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Revisiting Lambda Encodings of Datatypes"
 authors:  "Linus"
-time:     2016-09-01 15:00:00
+date:     2016-09-01 15:00:00
 venue:   "CB 313"
 categories: "Linus" Seminar 2016
 --- 

@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Subtyping dependent types"
 authors:  "Jeremy"
-time:     2016-04-15 16:00:00
+date:     2016-04-15 16:00:00
 venue:   "CB 328"
 categories: "Jeremy" Seminar 2016
 --- 

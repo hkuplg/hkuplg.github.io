@@ -2,7 +2,7 @@
 layout:  post 
 title:   "A Dependently Typed Language with Intersection Types"
 authors:  "Jeremy"
-time:     2016-08-18 15:00:00
+date:     2016-08-18 15:00:00
 venue:   "CB 313"
 categories: "Jeremy" Seminar 2016
 --- 

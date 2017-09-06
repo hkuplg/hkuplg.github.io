@@ -2,7 +2,7 @@
 layout:  post 
 title:   "From Namespaces to Dependencies and Reproducible Builds"
 authors:  "Tomas"
-time:     2015-04-16 13:45:00
+date:     2015-04-16 13:45:00
 venue:   "CB 313"
 categories: "Tomas" Seminar 2015
 --- 

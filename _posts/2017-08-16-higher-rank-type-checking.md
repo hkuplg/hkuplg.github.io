@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Higher-Rank Type Checking with Worklist"
 authors:  "Jimmy"
-time:     2017-08-16 10:00:00
+date:     2017-08-16 10:00:00
 venue:   "CB 313"
 categories: "Jimmy" Seminar 2017
 --- 

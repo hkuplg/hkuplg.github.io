@@ -2,7 +2,7 @@
 layout:  post 
 title:   "How to Make FCore Thread-safe"
 authors:  "Jeremy"
-time:     2015-03-05 13:45:00
+date:     2015-03-05 13:45:00
 venue:   "CB 313"
 categories: "Jeremy" Seminar 2015
 --- 
