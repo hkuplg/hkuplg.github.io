@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Disjoint Intersection Types and Disjoint Quantification"
-authors:  "George"
-date:     2015-06-25 13:45:00
+authors: "George"
+date:    2015-06-25 13:45:00 +0800
 venue:   "CB 313"
-categories: "George" Seminar 2015
+categories: George Seminar 2015
 --- 
 ## Abstract
 

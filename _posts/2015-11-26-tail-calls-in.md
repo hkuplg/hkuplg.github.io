@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Tail Calls in the JVM with Imperative Functional Objects"
-authors:  "Tomas"
-date:     2015-11-26 14:30:00
+authors: "Tomas"
+date:    2015-11-26 14:30:00 +0800
 venue:   "CB 313"
-categories: "Tomas" Seminar 2015
+categories: Tomas Seminar 2015
 --- 
 ## Abstract
 

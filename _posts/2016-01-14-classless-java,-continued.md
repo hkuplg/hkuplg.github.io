@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Classless Java, Continued"
-authors:  "Yanlin"
-date:     2016-01-14 14:00:00
+authors: "Yanlin"
+date:    2016-01-14 14:00:00 +0800
 venue:   "CB 328"
-categories: "Yanlin" Seminar 2016
+categories: Yanlin Seminar 2016
 --- 
 ## Abstract
 

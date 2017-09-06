@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Encodings of data types"
-authors:  "Li Huang"
-date:     2015-11-04 14:30:00
+authors: "Li Huang"
+date:    2015-11-04 14:30:00 +0800
 venue:   "CB 313"
-categories: "Li Huang" Seminar 2015
+categories: LiHuang Seminar 2015
 --- 
 ## Abstract
 

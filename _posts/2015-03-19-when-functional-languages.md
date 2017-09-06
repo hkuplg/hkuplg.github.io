@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "When Functional Languages Meet Symbolic Evaluation"
-authors:  "Weixin"
-date:     2015-03-19 13:45:00
+authors: "Weixin"
+date:    2015-03-19 13:45:00 +0800
 venue:   "CB 313"
-categories: "Weixin" Seminar 2015
+categories: Weixin Seminar 2015
 --- 
 ## Abstract
 

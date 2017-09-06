@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Embedding a Refinement Calculus in Coq"
-authors:  "John"
-date:     2016-11-11 10:30:00
+authors: "John"
+date:    2016-11-11 10:30:00 +0800
 venue:   "CB 313"
-categories: "John" Seminar 2016
+categories: John Seminar 2016
 --- 
 ## Abstract
 

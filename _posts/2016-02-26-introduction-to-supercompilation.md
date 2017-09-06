@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Introduction to Supercompilation"
-authors:  "Li Huang"
-date:     2016-02-26 16:00:00
+authors: "Li Huang"
+date:    2016-02-26 16:00:00 +0800
 venue:   "CB 328"
-categories: "Li Huang" Seminar 2016
+categories: LiHuang Seminar 2016
 --- 
 ## Abstract
 

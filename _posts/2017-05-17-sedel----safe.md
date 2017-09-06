@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "SEDEL -- Safe and Expressive Delegation-Based Programming"
-authors:  "Jeremy"
-date:     2017-05-17 10:00:00
+authors: "Jeremy"
+date:    2017-05-17 10:00:00 +0800
 venue:   "CB 313"
-categories: "Jeremy" Seminar 2017
+categories: Jeremy Seminar 2017
 --- 
 ## Abstract
 

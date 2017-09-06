@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Symbolic execution for property based testing in practice"
-authors:  "Weixin"
-date:     2015-05-28 13:45:00
+authors: "Weixin"
+date:    2015-05-28 13:45:00 +0800
 venue:   "CB 313"
-categories: "Weixin" Seminar 2015
+categories: Weixin Seminar 2015
 --- 
 ## Abstract
 

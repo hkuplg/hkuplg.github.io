@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Syntax for Object Algebras"
-authors:  "Haoyuan"
-date:     2015-04-30 13:45:00
+authors: "Haoyuan"
+date:    2015-04-30 13:45:00 +0800
 venue:   "CB 313"
-categories: "Haoyuan" Seminar 2015
+categories: Haoyuan Seminar 2015
 --- 
 ## Abstract
 

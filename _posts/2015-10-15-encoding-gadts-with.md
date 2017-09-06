@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Encoding GADTs with Casts"
-authors:  "Linus"
-date:     2015-10-15 14:30:00
+authors: "Linus"
+date:    2015-10-15 14:30:00 +0800
 venue:   "CB 313"
-categories: "Linus" Seminar 2015
+categories: Linus Seminar 2015
 --- 
 ## Abstract
 

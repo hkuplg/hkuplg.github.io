@@ -7,7 +7,7 @@ layout: default
   <h2 class="page-heading">List of Seminar Talks</h2>
  
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -21,7 +21,6 @@ layout: default
   </ul>
 
   <!-- Pagination links -->
-  {% if paginator.total_pages > 1 %}
   <div align="center"> 
   <div class="pagination">
     {% if paginator.previous_page %}
@@ -37,7 +36,6 @@ layout: default
     {% endif %}
   </div>
   </div>
-  {% endif %}
 
   <p class="rss-subscribe">Archives on <a href="https://github.com/hkuplg/seminar-talks">Github</a><br />subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
