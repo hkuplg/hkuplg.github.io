@@ -11,6 +11,7 @@ url: "https://hkuplg.github.io" # the base hostname & protocol for your site
 github_username:  hkuplg
 
 # Build settings
+timezone: Asia/Hong_Kong
 markdown: kramdown
 future : true # so that pages in the future get built; doesn't work :/
 highlighter: rouge
