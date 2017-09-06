@@ -1,9 +1,10 @@
 --- 
 layout:  post 
 title:   "Disjoint Intersection Types and Disjoint Quantification"
-authors: "George, Zhiyuan Shi" 
-date:    2015-08-06 13:45:00 
-categories: George Seminar 2015
+authors:  "George"
+time:     2015-06-25 13:45:00
+venue:   "CB 313"
+categories: "George" Seminar 2015
 --- 
 ## Abstract
 
@@ -15,4 +16,5 @@ behaviours and is not desirable in practice. In this talk, I will show
 a simple type system with intersection types, parametric polymorphism,
 and subtyping, which is coherent. The current system is inspired by
 systems with bounded quantification; the latter supports both
-subtyping and parametric polymorphism
+subtyping and parametric polymorphism.
+
