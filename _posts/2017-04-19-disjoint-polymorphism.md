@@ -1,10 +1,10 @@
 --- 
 layout:  post 
 title:   "Disjoint Polymorphism"
-authors: "Joao"
+authors: "João"
 date:    2017-04-19 10:00:00 +0800
 venue:   "CB 328"
-categories: Joao Seminar 2017
+categories: João Seminar 2017
 --- 
 ## Abstract
 

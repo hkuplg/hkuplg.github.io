@@ -4,7 +4,7 @@ title:   "Type Inference Again!"
 authors: "Xie Ningning"
 date:    2016-07-21 15:00:00 +0800
 venue:   "CB 313"
-categories: XieNingning Seminar 2016
+categories: Ningning Seminar 2016
 --- 
 ## Abstract
 

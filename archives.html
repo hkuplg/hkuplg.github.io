@@ -6,8 +6,9 @@ layout: default
   
   <h1 class="page-heading">Archives by Category</h1>
  
+  {% assign sortedcats = site.categories | sort %}
 
-  {% for category in site.categories %}
+  {% for category in sortedcats %}
     <h3>{{ category | first }}</h3>
       <ul>
       {% for posts in category %}
