@@ -4,7 +4,7 @@ title:   "let arguments go first, again"
 authors: "Ningning"
 date:    2017-03-08 10:00:00 +0800
 venue:   "CB 313"
-categories: Ningning Seminar 2017
+categories: Ningning 2017
 --- 
 ## Abstract
 

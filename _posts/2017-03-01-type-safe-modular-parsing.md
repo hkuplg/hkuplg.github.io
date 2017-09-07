@@ -4,7 +4,7 @@ title:   "Type-safe Modular Parsing"
 authors: "Li Huang"
 date:    2017-03-01 10:00:00 +0800
 venue:   "CB 313"
-categories: LiHuang Seminar 2017
+categories: LiHuang 2017
 --- 
 ## Abstract
 

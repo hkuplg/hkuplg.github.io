@@ -4,7 +4,7 @@ title:   "Object Algebras as Visitors"
 authors: "Weixin"
 date:    2016-01-07 14:00:00 +0800
 venue:   "CB 308"
-categories: Weixin Seminar 2016
+categories: Weixin 2016
 --- 
 ## Abstract
 

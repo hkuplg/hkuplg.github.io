@@ -4,7 +4,7 @@ title:   "Generalizing Casts with Full Reduction"
 authors: "Linus"
 date:    2016-07-07 15:00:00 +0800
 venue:   "CB 313"
-categories: Linus Seminar 2016
+categories: Linus 2016
 --- 
 ## Abstract
 

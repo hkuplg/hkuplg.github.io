@@ -4,7 +4,7 @@ title:   "Revisiting Disjointness and Coherence"
 authors: "Jeremy"
 date:    2017-08-30 10:00:00 +0800
 venue:   "CB 313"
-categories: Jeremy Seminar 2017
+categories: Jeremy 2017
 --- 
 ## Abstract
 

@@ -4,7 +4,7 @@ title:   "Disjoint Intersection Types and Disjoint Quantification"
 authors: "João"
 date:    2016-07-28 15:00:00 +0800
 venue:   "CB 313"
-categories: João Seminar 2016
+categories: João 2016
 --- 
 ## Abstract
 

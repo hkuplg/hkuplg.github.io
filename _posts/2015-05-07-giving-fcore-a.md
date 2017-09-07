@@ -4,7 +4,7 @@ title:   "Giving FCore a Promotion: by adding a dependently typed core"
 authors: "Jeremy"
 date:    2015-05-07 13:45:00 +0800
 venue:   "CB 313"
-categories: Jeremy Seminar 2015
+categories: Jeremy 2015
 --- 
 ## Abstract
 

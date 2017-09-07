@@ -4,7 +4,7 @@ title:   "Towards First-class Modules in Dependently Typed Languages"
 authors:  "Jeremy"
 date:     2015-12-17 14:00:00 +0800
 venue:   "CB 313"
-categories: Jeremy Seminar 2015
+categories: Jeremy 2015
 --- 
 ## Abstract
 

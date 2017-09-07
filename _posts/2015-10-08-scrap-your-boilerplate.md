@@ -4,7 +4,7 @@ title:   "Scrap Your Boilerplate with Object Algebras"
 authors: "Haoyuan"
 date:    2015-10-08 14:30:00 +0800
 venue:   "CB 328"
-categories: Haoyuan Seminar 2015
+categories: Haoyuan 2015
 --- 
 ## Abstract
 

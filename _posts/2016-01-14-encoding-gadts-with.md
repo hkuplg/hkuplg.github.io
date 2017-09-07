@@ -4,7 +4,7 @@ title:   "Encoding GADTs with Type Equality Constraints"
 authors:  Linus
 date:     2016-01-14 14:00:00 +0800
 venue:   "CB 328"
-categories: Linus Seminar 2016
+categories: Linus 2016
 --- 
 ## Abstract
 

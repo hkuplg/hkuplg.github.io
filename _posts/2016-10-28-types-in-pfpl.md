@@ -4,7 +4,7 @@ title:   "Types in PFPL"
 authors: "Ningning"
 date:    2016-10-28 10:30:00 +0800
 venue:   "CB 313"
-categories: Ningning Seminar 2016
+categories: Ningning 2016
 --- 
 ## Abstract
 

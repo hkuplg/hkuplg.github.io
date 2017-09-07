@@ -4,7 +4,7 @@ title:   "Twitterize You a Haskell for Great Profit"
 authors: "Tomas"
 date:    2015-07-16 13:45:00 +0800
 venue:   "CB 313"
-categories: Tomas Seminar 2015
+categories: Tomas 2015
 --- 
 ## Abstract
 

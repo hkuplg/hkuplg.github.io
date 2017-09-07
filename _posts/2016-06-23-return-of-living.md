@@ -4,7 +4,7 @@ title:   "Return of Living Datalog"
 authors: "Tomas"
 date:    2016-06-23 15:00:00 +0800
 venue:   "CB 313"
-categories: Tomas Seminar 2016
+categories: Tomas 2016
 --- 
 ## Abstract
 

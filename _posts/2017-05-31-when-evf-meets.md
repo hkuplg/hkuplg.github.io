@@ -4,7 +4,7 @@ title:   "When EVF meets Scala"
 authors: "Weixin"
 date:    2017-05-31 10:00:00 +0800
 venue:   "CB 313"
-categories: Weixin Seminar 2017
+categories: Weixin 2017
 --- 
 ## Abstract
 

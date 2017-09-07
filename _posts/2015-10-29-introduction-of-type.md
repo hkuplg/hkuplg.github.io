@@ -4,7 +4,7 @@ title:   "Introduction of Type Inference"
 authors: "Ningning"
 date:    2015-10-29 14:30:00 +0800
 venue:   "CB 313"
-categories: Ningning Seminar 2015
+categories: Ningning 2015
 --- 
 ## Abstract
 

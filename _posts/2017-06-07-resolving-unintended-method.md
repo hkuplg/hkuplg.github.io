@@ -4,7 +4,7 @@ title:   "Resolving Unintended Method Conflicts"
 authors: "Yanlin"
 date:    2017-06-07 10:00:00 +0800
 venue:   "CB 313"
-categories: Yanlin Seminar 2017
+categories: Yanlin 2017
 --- 
 ## Abstract
 

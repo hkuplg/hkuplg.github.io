@@ -4,7 +4,7 @@ title:   "A built-in solution for bindings - An introduction to Abella"
 authors: "Jimmy"
 date:    2017-03-22 10:00:00 +0800
 venue:   "CB 313"
-categories: Jimmy Seminar 2017
+categories: Jimmy 2017
 --- 
 ## Abstract
 

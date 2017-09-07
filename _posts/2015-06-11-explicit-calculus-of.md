@@ -4,7 +4,7 @@ title:   "Explicit Calculus of Constructions with Recursion"
 authors: "Linus"
 date:    2015-06-11 13:45:00 +0800
 venue:   "CB 313"
-categories: Linus Seminar 2015
+categories: Linus 2015
 --- 
 ## Abstract
 

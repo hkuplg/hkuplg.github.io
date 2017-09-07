@@ -4,7 +4,7 @@ title:   "Modular Unfolds"
 authors: "Haoyuan"
 date:    2017-09-06 10:00:00 +0800
 venue:   "CB 313"
-categories: Haoyuan Seminar 2017
+categories: Haoyuan 2017
 --- 
 ## Abstract
 

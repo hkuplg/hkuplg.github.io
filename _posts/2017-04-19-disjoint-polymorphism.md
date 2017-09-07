@@ -4,7 +4,7 @@ title:   "Disjoint Polymorphism"
 authors: "João"
 date:    2017-04-19 10:00:00 +0800
 venue:   "CB 328"
-categories: João Seminar 2017
+categories: João 2017
 --- 
 ## Abstract
 

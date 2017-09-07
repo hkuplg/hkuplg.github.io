@@ -4,7 +4,7 @@ title:   "Subtyping dependent types"
 authors: "Jeremy"
 date:    2016-04-15 16:00:00 +0800
 venue:   "CB 328"
-categories: Jeremy Seminar 2016
+categories: Jeremy 2016
 --- 
 ## Abstract
 

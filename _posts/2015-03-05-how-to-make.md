@@ -4,7 +4,7 @@ title:   "How to Make FCore Thread-safe"
 authors: "Jeremy"
 date:    2015-03-05 13:45:00 +0800
 venue:   "CB 313"
-categories: Jeremy Seminar 2015
+categories: Jeremy 2015
 --- 
 ## Abstract
 

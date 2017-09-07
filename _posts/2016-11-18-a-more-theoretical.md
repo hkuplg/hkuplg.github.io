@@ -4,7 +4,7 @@ title:   "A more theoretical view of Intersection/Union Types"
 authors: "Jimmy"
 date:    2016-11-18 10:30:00 +0800
 venue:   "CB 313"
-categories: Jimmy Seminar 2016
+categories: Jimmy 2016
 --- 
 ## Abstract
 

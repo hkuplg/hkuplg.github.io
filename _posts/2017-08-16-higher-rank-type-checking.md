@@ -4,7 +4,7 @@ title:   "Higher-Rank Type Checking with Worklist"
 authors: "Jimmy"
 date:    2017-08-16 10:00:00 +0800
 venue:   "CB 313"
-categories: Jimmy Seminar 2017
+categories: Jimmy 2017
 --- 
 ## Abstract
 

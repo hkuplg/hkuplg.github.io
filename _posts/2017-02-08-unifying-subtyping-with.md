@@ -4,7 +4,7 @@ title:   "Unifying Subtyping with Typing"
 authors: "Linus"
 date:    2017-02-08 10:00:00 +0800
 venue:   "CB 328"
-categories: Linus Seminar 2017
+categories: Linus 2017
 --- 
 ## Abstract
 
