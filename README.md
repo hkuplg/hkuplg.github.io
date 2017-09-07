@@ -9,7 +9,7 @@ You can follow the guide here to update the website. The general procedure is to
 
 ### Seminar
 
-Create a new markdown file in [`_posts`](_posts) folder. The filename should be "date + title", e.g., `2017-07-01-an-awesome-title.md`. The file template is as follows (texts inside '<>' are hints for putting the actual content):
+Create a new markdown file in [`_posts`](_posts) folder. The filename should be "date + *optional* short title (3-4 words)", e.g., `2017-07-01.md` or `2017-07-01-an-awesome-title.md`. The file template is as follows (texts inside '<>' are hints for putting the actual content):
 
 ```markdown
 --- 
@@ -25,7 +25,7 @@ categories: <short name of author, no quotation marks> <the year>
 <abstract here>
 ```
 
-You can check the existing posts for reference, e.g. [2015-02-12-object-algebras-in.md](_posts/2015-02-12-object-algebras-in.md).
+Title, authors and venue should be wrapped by double quotation marks. But do not put any quotations marks in the entries of "categories". Jekyll, the blog engine, just doesn't like it. You can also check the existing posts for reference, e.g. [2015-02-12-object-algebras-in.md](https://github.com/hkuplg/hkuplg.github.io/blame/master/_posts/2015-02-12-object-algebras-in.md).
 
 ### Paper reading
 
