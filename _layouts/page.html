@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-<div class="post">
+<article class="center-align">
+  <h2 class="my-mini-heading">{{ page.title }}</h2>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
+  <div class="my-text-body">
     {{ content }}
-  </article>
-
-</div>
+  </div>
+  <div class="center-align">
+    <a class="waves-effect waves-teal btn-flat btn-large" href="{{ site.baseurl }}/">{{ site.home_btn }}</a>
+  </div>
+</article>

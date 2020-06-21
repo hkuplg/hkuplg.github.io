@@ -1,0 +1,3 @@
+- name: FCore
+  link: https://github.com/hkuplg/fcore
+  description: Research middleware compiler from System F-based languages to Java with the Imperative Functional Object encoding.

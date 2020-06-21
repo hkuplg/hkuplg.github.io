@@ -1,68 +1,150 @@
 ---
 layout: default
 ---
-
-<div class="home">
-  
-  <h1 class="page-heading">About HKU PL Group</h1>
-  
-  <p>We are a group of programming language researchers who study topics about functional language design, type theory, compilers and program analysis.</p>
-
-  <h2>Research</h2>
-
-  <p>Our research interests cover a wide range of topics related to programming languages. We are creating a new experimental programming language, <a href="https://github.com/hkuplg/fcore">FCore</a>. Check out our <a href="https://github.com/hkuplg">Github page</a> for more ongoing projects.</p>
-
-  <h3>Faculty</h3>
-
-  <table>
-    <tr><td></td>
-        <td valign="top">
-            <b>Bruno Oliveira</b> [<a href="http://i.cs.hku.hk/~bruno/">Site</a>]<br />
-            Associate Professor, Group Leader
-        </td>
-    </tr>
-  </table>
-
-  <br />
-
-  <table style="width: 100%;"><tr>
-  <td valign="top">
-  <h3>Grad Students (PhD and MPhil)</h3>
-  <ul>
-    <li><a href="https://wxzh.github.io/">Weixin Zhang</a></li>
-    <li>Jimmy, Jinxu Zhao</li>
-    <li><a href="https://xnning.github.io">Ningning Xie</a></li>
-    <li><a href="http://yaoda.pro">Yaoda Zhou</a></li>
-    <li>Snow, Xuejing Huang</li>
-    <li><a href="https://baberrehman.github.io/">Baber Rehman</a></li>
-    <li><a href="https://vinalx.github.io">Alvin, Mingqi Xue</a></li>
-    <li><a href="https://yzsun.me">Yaozhu Sun</a></li>
-  </ul>
-    
-  <h3>Almuni (PhD and MPhil)</h3>
-  <ul>
-    <li><a href="https://github.com/tomtau">Tomas Tauber</a></li>
-    <li><a href="https://github.com/zhiyuanshi">George, Zhiyuan Shi</a></li>
-    <li><a href="https://github.com/lihuanglx">Huang Li</a></li>
-    <li><a href="https://bixuanzju.github.io">Jeremy, Xuan Bi</a></li>
-    <li><a href="https://github.com/hy-zhang">Haoyuan Zhang</a></li>
-    <li><a href="https://github.com/YanlinWang">Grace, Yanlin Wang</a></li>
-    <li><a href="https://linusyang.com">Linus, Yanpeng Yang</a></li>
-  </ul>
-  </td>
-
-  <td valign="top">
-  <h3>Former Lab Members</h3>
-  <ul>
-    <li>Benjamin</li>
-    <li><a href="https://github.com/Jerry168">Jerry, Zhenrui Zhang</a></li>
-    <li><a href="https://github.com/EmmaBYPeng">Emma Peng</a></li>
-    <li><a href="https://github.com/zonyitoo">Elton Chung</a></li>
-    <li><a href="https://github.com/changrh">Kevin Chang</a></li>
-    <li>Johnny Lin</li>
-    <li><a href="https://github.com/dynastywind">Gabriel Li</a></li>
-  </ul>
-
-  </table>
-
+<script src="{{ "/styles/index.js" | prepend: site.baseurl }}"></script>
+<div>
+<a id="members-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_members();">{{ site.members_btn }}</a>
+  <a id="posts-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_posts();">{{ site.posts_btn }}</a>
+  <a id="projects-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_projects();">{{ site.projects_btn }}</a>
 </div>
+
+
+<div id="members">
+
+  <h2 class="my-mini-heading">{{ site.members_btn }}</h2>
+
+  <h4 class="my-mini-heading-sub">Faculty</h4>
+  <ul>
+    {% for pi in site.data.faculty %}
+    <li>
+      <p class="my-item-sub"><a href="{{ pi.link }}" class="my-link">{{ pi.name }}</a>
+        {{ pi.title }}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h4 class="my-mini-heading-sub">Current Members</h4>
+  <ul>
+    {% for pi in site.data.students %}
+    <li>
+      <p class="my-item-sub"><a href="{{ pi.link }}" class="my-link">{{ pi.name }}</a>
+        {{ pi.title }}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h4 class="my-mini-heading-sub">Almuni</h4>
+  <ul>
+    {% for pi in site.data.almuni %}
+    <li>
+      <p class="my-item-sub"><a href="{{ pi.link }}" class="my-link">{{ pi.name }}</a>
+        
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+  <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
+  </div>
+  </div>
+
+
+<div id="posts">
+
+  <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
+
+  <ul>
+    {% for post in paginator.posts %}
+    <li>
+      <p class="my-item">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
+        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+          {{ post.content | strip_html | truncatewords: 20 }}
+      </p>
+    </li>
+    {% endfor %}
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">
+          Previous
+        </a>
+      {% else %}
+        <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">
+        Page: {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next ">Next</span>
+      {% endif %}
+    </div>
+    {% comment %} <li>
+      <p class="my-item">
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
+        <i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}
+    </li> {% endcomment %}
+  </ul>
+
+  <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
+  </div>
+</div>
+
+
+<div id="projects">
+  <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
+  <ul>
+    {% for project in site.data.projects %}
+    <li>
+      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
+        {{ project.description }}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+  <div>
+    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
+  </div>
+</div>
+
+<noscript>
+  <div id="posts-noscript">
+
+    <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
+
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <p class="my-item">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
+          <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </p>
+      </li>
+      {% endfor %}
+      <li>
+        <p class="my-item">
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="my-link">RSS</a> / <a href="{{ "/atom.xml" | prepend: site.baseurl }}" class="my-link">ATOM</a><br>
+          <span class="my-item-sub"><i class="fa fa-rss" aria-hidden="true"></i> {{ site.rss_badge }}</span>
+      </li>
+    </ul>
+  </div>
+  <div id="projects-noscript">
+    <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
+    <ul>
+      {% for project in site.data.projects %}
+      <li>
+        <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
+          <span class="my-item-sub">
+        {{ project.description }}
+      </span>
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</noscript>
