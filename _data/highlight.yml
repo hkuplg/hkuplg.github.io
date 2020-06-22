@@ -1,0 +1,15 @@
+- work: Disjoint Intersection Types
+  description: To be done
+  papers: 
+    - title: Disjoint Intersection Types
+      conf: ICFP 16
+      link: https://i.cs.hku.hk/~bruno/papers/icfp2016.pdf
+    - title: Disjoint Polymorphism
+      conf: ESOP 17
+      link: https://i.cs.hku.hk/~bruno/papers/ESOP2017.pdf
+- work: Gradual Typing
+  description: To be done
+  papers:
+    - title: Consistent Subtyping for All
+      conf: TOPLAS
+      link: https://i.cs.hku.hk/~bruno/papers/gradual-esop18.pdf

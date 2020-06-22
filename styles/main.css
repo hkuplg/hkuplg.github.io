@@ -263,7 +263,7 @@ a{
     font-size: 14.5px;
     color: #4db6ac;
 }
-#projects, #posts{
+#projects, #posts, #members, #highlight {
     display: none;
 }
 img{
