@@ -9,6 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hkuplg.github.io" # the base hostname & protocol for your site
 #twitter_username: hkuplg
 github_username:  hkuplg
+about: We are a group of programming language researchers who study topics about functional language design, type theory, compilers and program analysis.
+location: Hong Kong, China
 
 # Build settings
 timezone: Asia/Hong_Kong
@@ -19,5 +21,11 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 plugins: [jekyll-paginate]
-paginate: 10
-paginate_path: talks/page:num/
+paginate: 5
+paginate_path: seminar/page:num/
+
+projects_btn: "Projects"
+posts_btn: "Seminar"
+close_btn: "Close"
+members_btn: "Members"
+highlight_btn: "Highlight"
