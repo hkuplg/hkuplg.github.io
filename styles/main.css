@@ -130,7 +130,8 @@ a{
     margin-top: 45px;
 }
 .my-name{
-    font-family: 'Vast Shadow', cursive;
+    /* font-family: 'Vast Shadow', cursive; */
+    font-family: "Arial Black", Gadget, sans-serif;
     font-size: 45px;
     color: black;
 }
@@ -149,7 +150,7 @@ a{
     font-size: 33px;
 }
 .my-mini-heading{
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-weight: normal;
     font-size: 27px;
 }

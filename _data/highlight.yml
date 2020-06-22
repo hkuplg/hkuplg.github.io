@@ -7,9 +7,63 @@
     - title: Disjoint Polymorphism
       conf: ESOP 17
       link: https://i.cs.hku.hk/~bruno/papers/ESOP2017.pdf
+    - title: The Essence of Nested Composition
+      conf: ECOOP 18
+      link: https://i.cs.hku.hk/~bruno/papers/nested.pdf
+    - title: Distributive Disjoint Polymorphism for Compositional Programming
+      conf: ESOP 19
+      link: https://i.cs.hku.hk/~bruno/papers/esop2019.pdf
+    - title: A Type-Directed Operational Semantics for a Calculus with a Merge Operator
+      conf: ECOOP 20
+      link: https://i.cs.hku.hk/~bruno/papers/merge_ecoop2020.pdf
+    - title: Row and Bounded Polymorphism via Disjoint Polymorphism
+      conf: ECOOP 20
+      link: https://i.cs.hku.hk/~bruno/papers/row-bounded_ecoop2020.pdf
+- work: Compositional Programming
+  description: To be done
+  papers:
+    - title: Typed First-Class Traits
+      conf: ECOOP 18
+      link: https://i.cs.hku.hk/~bruno/papers/traits.pdf
+    - title: Shallow EDSLs and Object-Oriented Programming“:” Beyond Simple Compositionality
+      conf: The Programming Journal
+      link: https://i.cs.hku.hk/~bruno/papers/programming19shallow.pdf
 - work: Gradual Typing
   description: To be done
   papers:
     - title: Consistent Subtyping for All
       conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/gradual-esop18.pdf
+- work: Dependent Types
+  description: To be done
+  papers:
+    - title: Unifying Typing and Subtyping
+      conf: OOPSLA 17
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla17.pdf
+    - title: Pure Iso-Type Systems
+      conf: JFP
+      link: https://i.cs.hku.hk/~bruno/papers/pits.pdf
+- work: Higher-Ranked Polymorphism
+  description: To be done
+  papers:
+    - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
+      conf: ICFP 19
+      link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
+- work: Bi-directional Type Checking
+  description: To be done
+  papers:
+    - title: Let Arguments go First
+      conf: ESOP 18
+      link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
+- work: Kind Inference
+  description: To be done
+  papers:
+    - title: Kind Inference for Datatypes
+      conf: POPL 20
+      link: https://i.cs.hku.hk/~bruno/papers/popl20.pdf
+- work: Intersection and Union Types
+  description: To be done
+  papers:
+    - title: The Duality of Subtyping
+      conf: ECOOP 20
+      link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
