@@ -141,6 +141,12 @@ a{
 .my-name:active{
     color: black;
 }
+
+.my-highlight{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .my-heading{
     font-family: 'Vast Shadow', cursive;
     font-size: 37px;
@@ -156,14 +162,14 @@ a{
 }
 .my-mini-heading-sub{
     font-family: 'Share Tech Mono', monospace;
-    font-weight: normal;    
-    font-size: 14.5px;
+    font-weight: bold;    
+    font-size: 20px;
 }
 .my-description{
     font-family: 'Share Tech Mono', monospace;
     font-size: 15px;
     color: #4db6ac;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .my-footer{
     position:fixed;
