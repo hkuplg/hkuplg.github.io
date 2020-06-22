@@ -11,23 +11,25 @@ layout: default
 </div>
 
 <div id="highlight">
-
+  
   <h2 class="my-mini-heading">{{ site.highlight_btn }}</h2>
 
   {% for work in site.data.highlight %}
-  <h4 class="my-mini-heading-sub">{{ work.work }}</h4>
-  <p>{{ work.description }}</p>
-  <ul>
-    {% for pi in work.papers %}
-    <li>
-      <p class="my-item-subsub"><a href="{{ pi.link }}" >{{ pi.title }}</a>
-        {{ pi.conf }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="my-highlight">
+    <h4 class="my-mini-heading-sub">{{ work.work }}</h4>
+    <p>{{ work.description }}</p>
+    <ul>
+      {% for pi in work.papers %}
+      <li>
+        <p class="my-item-subsub"><a href="{{ pi.link }}" >{{ pi.title }}</a>
+          {{ pi.conf }}
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
   {% endfor %}
-
+  
   <div>
     <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
