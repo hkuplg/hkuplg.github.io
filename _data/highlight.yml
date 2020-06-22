@@ -25,7 +25,7 @@
     - title: Typed First-Class Traits
       conf: ECOOP 18
       link: https://i.cs.hku.hk/~bruno/papers/traits.pdf
-    - title: Shallow EDSLs and Object-Oriented Programming“:” Beyond Simple Compositionality
+    - title: "Shallow EDSLs and Object-Oriented Programming: Beyond Simple Compositionality"
       conf: The Programming Journal
       link: https://i.cs.hku.hk/~bruno/papers/programming19shallow.pdf
 - work: Gradual Typing
