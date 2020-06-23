@@ -10,7 +10,7 @@ url: "https://hkuplg.github.io" # the base hostname & protocol for your site
 #twitter_username: hkuplg
 github_username:  hkuplg
 about: We are a group of programming language researchers who study topics about functional language design, type theory, compilers and program analysis.
-location: Hong Kong, China
+location: The University of Hong Kong
 
 # Build settings
 timezone: Asia/Hong_Kong
