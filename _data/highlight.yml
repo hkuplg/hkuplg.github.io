@@ -1,5 +1,5 @@
 - work: Disjoint Intersection Types
-  description: To be done
+  description: These are a series of works about disjoint intersection types. By supporting a merge operator, the calculi with disjoint intersection types provide general mechanisms that can subsume various other features. Such calculi can also encode highly dynamic forms of object composition, which capture common programming patterns in dynamically typed languages (such as JavaScript) in a fully statically typed manner.
   papers: 
     - title: Disjoint Intersection Types
       conf: ICFP 16
@@ -20,7 +20,7 @@
       conf: ECOOP 20
       link: https://i.cs.hku.hk/~bruno/papers/row-bounded_ecoop2020.pdf
 - work: Compositional Programming
-  description: To be done
+  description: Those works present a novel modular programming style.
   papers:
     - title: Typed First-Class Traits
       conf: ECOOP 18
@@ -29,13 +29,13 @@
       conf: The Programming Journal
       link: https://i.cs.hku.hk/~bruno/papers/programming19shallow.pdf
 - work: Gradual Typing
-  description: To be done
+  description: This work presents a generalized definition of consistent subtyping that works for polymorphic types. 
   papers:
     - title: Consistent Subtyping for All
       conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/gradual-esop18.pdf
 - work: Dependent Types
-  description: To be done
+  description: Those works propose a unified syntax that accounts for types and terms which still preserves decidable type-checking.
   papers:
     - title: Unifying Typing and Subtyping
       conf: OOPSLA 17
@@ -44,25 +44,25 @@
       conf: JFP
       link: https://i.cs.hku.hk/~bruno/papers/pits.pdf
 - work: Higher-Ranked Polymorphism
-  description: To be done
+  description: This paper provides the first mechanized formalization of type inference for higher-ranked polymorphism. 
   papers:
     - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
       conf: ICFP 19
       link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
 - work: Bi-directional Type Checking
-  description: To be done
+  description: This paper presents a variant of bi-directional type checking where the type information flows from arguments to functions. 
   papers:
     - title: Let Arguments go First
       conf: ESOP 18
       link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
 - work: Kind Inference
-  description: To be done
+  description: This work proposes a solution of challenge of kind inference for datatype declarations for Haskell98 and modern Haskell.
   papers:
     - title: Kind Inference for Datatypes
       conf: POPL 20
       link: https://i.cs.hku.hk/~bruno/papers/popl20.pdf
 - work: Intersection and Union Types
-  description: To be done
+  description: This paper proposes a novel methodology for designing subtyping relations that exploits duality between intersection types and union types.
   papers:
     - title: The Duality of Subtyping
       conf: ECOOP 20
