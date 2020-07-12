@@ -9,7 +9,7 @@ You can follow the guide here to update the website. The general procedure is to
 
 ### Seminar
 
-Create a new markdown file in [`_posts`](_posts) folder. The filename should be "date + *optional* short title (3-4 words)", e.g., `2017-07-01.md` or `2017-07-01-an-awesome-title.md`. The file template is as follows (texts inside '<>' are hints for putting the actual content):
+Create a new markdown file in [`_posts`](_posts) folder. The filename should be "date + short title (3-4 words)", e.g. `2017-07-01-an-awesome-title.md`. The file template is as follows (texts inside '<>' are hints for putting the actual content):
 
 ```markdown
 --- 
@@ -27,16 +27,3 @@ categories: <short name of author, no quotation marks> <the year>
 
 Title, authors and venue should be wrapped by double quotation marks. But do not put any quotations marks in the entries of "categories". Jekyll, the blog engine, just doesn't like it. You can also check the existing posts for reference, e.g. [2015-02-12-object-algebras-in.md](https://github.com/hkuplg/hkuplg.github.io/blame/master/_posts/2015-02-12-object-algebras-in.md).
 
-### Paper reading
-
-Directly edit [`_includes/paper-reading.md`](_includes/paper-reading.md) and add new entries. The latest entry should be added at the top. The format for the entry is as follows:
-
-```markdown
-| date | leader | [paper name](paper url) |
-```
-
-An example could be
-
-```markdown
-| Sep 4, 2017 | Bruno | [The Essence of Inheritance](https://arxiv.org/abs/1601.02059) |
-```
