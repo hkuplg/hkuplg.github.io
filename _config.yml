@@ -24,7 +24,7 @@ plugins: [jekyll-paginate]
 paginate: 5
 paginate_path: seminar/page:num/
 
-projects_btn: "Projects"
+projects_btn: "Gallery"
 posts_btn: "Seminar"
 close_btn: "Close"
 members_btn: "Members"

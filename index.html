@@ -120,11 +120,12 @@ layout: default
 <div id="projects">
   <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
   <ul>
-    {% for project in site.data.projects %}
+    {% for photo in site.data..gallery %}
     <li>
-      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-        {{ project.description }}
-      </p>
+      <figure>
+         <img src=" {{ photo.url }}" alt='missing' />
+         <figcaption>{{ photo.name }}</figcaption>
+    </figure>
     </li>
     {% endfor %}
   </ul>
