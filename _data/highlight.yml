@@ -49,18 +49,24 @@
     - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
       conf: ICFP 19
       link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
-- work: Bi-directional Type Checking
-  description: This paper presents a variant of bi-directional type checking where the type information flows from arguments to functions. 
-  papers:
-    - title: Let Arguments go First
-      conf: ESOP 18
-      link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
 - work: Kind Inference
   description: This work proposes a solution of challenge of kind inference for datatype declarations for Haskell98 and modern Haskell.
   papers:
     - title: Kind Inference for Datatypes
       conf: POPL 20
       link: https://i.cs.hku.hk/~bruno/papers/popl20.pdf
+- work: Subtyping for Iso-recursive Types
+  description: This work reviews the Amber rules, a widely used subtyping rules for iso-recursive types and proposes a new iso-recursive subtyping rules. The novel design of double unfolding rules takes advantage over other designs on both theoretical side and implementation side.
+  papers:
+    - title: Revisiting Iso-Recursive Subtyping
+      conf: OOPSLA 20
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla20-recursive.pdf
+- work: Bi-directional Type Checking
+  description: This paper presents a variant of bi-directional type checking where the type information flows from arguments to functions. 
+  papers:
+    - title: Let Arguments go First
+      conf: ESOP 18
+      link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
 - work: Intersection and Union Types
   description: This paper proposes a novel methodology for designing subtyping relations that exploits duality between intersection types and union types.
   papers:
