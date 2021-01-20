@@ -1,8 +1,8 @@
 ---
 layout:  post
-Title: DuoTyping: Examining the generalized subtyping
+Title: "DuoTyping: Examining the generalized subtyping"
 Speaker: Baber
-Date & Time: 2019-07-23 10:00:00
+Date: 2019-07-23 10:00:00
 Venue: CB313
 ---
 ## Abstract

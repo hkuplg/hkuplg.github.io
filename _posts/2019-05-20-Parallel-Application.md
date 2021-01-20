@@ -1,6 +1,6 @@
 ---
 layout:  post
-Title: Parallel Application: Programming with Extensible, Generative
+Title: "Parallel Application: Programming with Extensible, Generative"
 Speaker: Weixin
 Date & Time: 2019-05-21 10:00:00
 Venue: CB313
