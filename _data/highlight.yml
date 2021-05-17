@@ -25,9 +25,9 @@
     - title: Typed First-Class Traits
       conf: ECOOP 18
       link: https://i.cs.hku.hk/~bruno/papers/traits.pdf
-    - title: "Shallow EDSLs and Object-Oriented Programming: Beyond Simple Compositionality"
-      conf: The Programming Journal
-      link: https://i.cs.hku.hk/~bruno/papers/programming19shallow.pdf
+    - title: Compositional Programming
+      conf: TOPLAS
+      link: https://i.cs.hku.hk/~bruno/papers/toplas2021.pdf
 - work: Gradual Typing
   description: This work presents a generalized definition of consistent subtyping that works for polymorphic types. 
   papers:
@@ -43,6 +43,9 @@
     - title: Pure Iso-Type Systems
       conf: JFP
       link: https://i.cs.hku.hk/~bruno/papers/pits.pdf
+    - title: A Dependently Typed Calculus with Polymorphic Subtyping
+      conf: SCP
+      link: https://i.cs.hku.hk/~bruno/papers/scp2021.pdf
 - work: Higher-Ranked Polymorphism
   description: This paper provides the first mechanized formalization of type inference for higher-ranked polymorphism. 
   papers:
