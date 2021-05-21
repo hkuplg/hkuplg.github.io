@@ -23,6 +23,7 @@ Compared to the Amber rules, the double unfolding rule has the advantage of:
 1) being modular; 
 2) not requiring reflexivity tobe built in; and 
 3) leading to an easy proof of transitivity of subtyping. 
+
 This work sheds new insights on the theory of subtyping iso-recursive types, 
 and the new double unfolding rule has important advantages over the original Amber rules 
 for both implementations and metatheoretical studies involving recursive types. 
