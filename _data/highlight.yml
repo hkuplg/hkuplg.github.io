@@ -13,9 +13,6 @@
     - title: Distributive Disjoint Polymorphism for Compositional Programming
       conf: ESOP 19
       link: https://i.cs.hku.hk/~bruno/papers/esop2019.pdf
-    - title: A Type-Directed Operational Semantics for a Calculus with a Merge Operator
-      conf: ECOOP 20
-      link: https://i.cs.hku.hk/~bruno/papers/merge_ecoop2020.pdf
     - title: Row and Bounded Polymorphism via Disjoint Polymorphism
       conf: ECOOP 20
       link: https://i.cs.hku.hk/~bruno/papers/row-bounded_ecoop2020.pdf
@@ -76,3 +73,12 @@
     - title: The Duality of Subtyping
       conf: ECOOP 20
       link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
+- work: Type-directed Operational Semantics
+  description: Type-directed operational semantics(TDOS) is a variant of small-step operational semantics. In TDOS, type annotations become operationally relevant and can affect the result of a program. 
+  papers:
+    - title: A Type-Directed Operational Semantics for a Calculus with a Merge Operator
+      conf: ECOOP 20
+      link: https://i.cs.hku.hk/~bruno/papers/merge_ecoop2020.pdf
+    - title: Type-directed Operational Semantics for Gradual Typing
+      conf: ECOOP 21
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop2021.pdf
