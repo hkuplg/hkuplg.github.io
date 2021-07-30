@@ -12,6 +12,22 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   src: local('Material Icons'), local('MaterialIcons-Regular'), url(fonts/icons.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Molengo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/molengoe.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Molengo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/molengo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -109,8 +125,13 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url(fonts/lfl.ttf) format('truetype');
 }
 a{
-    font-family: 'Share Tech Mono', monospace;
+    font-family: "Molengo", 'Share Tech Mono', monospace;
 }
+
+p{
+    font-family: "Molengo", sans-serif;
+}
+
 .my-link{
     font-size: 18px !important;
 }
@@ -131,7 +152,7 @@ a{
 }
 .my-name{
     /* font-family: 'Vast Shadow', cursive; */
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "Molengo", "Arial Black", Gadget, sans-serif;
     font-size: 45px;
     color: black;
 }
@@ -148,7 +169,7 @@ a{
 }
 
 .my-heading{
-    font-family: 'Vast Shadow', cursive;
+    font-family: "Molengo", 'Vast Shadow', cursive;
     font-size: 37px;
     margin-top: 70px;
 }
@@ -156,17 +177,17 @@ a{
     font-size: 33px;
 }
 .my-mini-heading{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Molengo", "Comic Sans MS", cursive, sans-serif;
     font-weight: normal;
     font-size: 27px;
 }
 .my-mini-heading-sub{
-    font-family: 'Share Tech Mono', monospace;
+    font-family: "Molengo", 'Share Tech Mono', monospace;
     font-weight: bold;    
     font-size: 20px;
 }
 .my-description{
-    font-family: 'Share Tech Mono', monospace;
+    font-family: "Molengo", 'Share Tech Mono', monospace;
     font-size: 15px;
     color: #4db6ac;
     /* margin-top: 50px; */
@@ -175,7 +196,7 @@ a{
     position:fixed;
     bottom:0;
     display:block;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: "Molengo", 'Share Tech Mono', monospace;
     text-align: center;
     margin-bottom: 0px;
     font-size: 13px;
@@ -200,12 +221,12 @@ a{
     color: #38c1c1;
 }
 .my-text-body{
-    font-family: 'Playfair Display', serif;
+    font-family: "Molengo", 'Playfair Display', serif;
     font-size: 16px;
     margin-top: 20px;
 }
 .my-text-body h1,h2,h3,h4,h5,h6 {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: "Molengo", 'Libre Franklin', sans-serif;
 
     font-weight: bold;
     margin-bottom: 20px;
@@ -230,7 +251,7 @@ a{
 }
 .my-text-author{
     font-size: 17px;
-     font-family: 'Playfair Display', serif;
+     font-family: "Molengo", 'Playfair Display', serif;
     margin: 30px 0 25px;
 }
 .my-text-body a{
@@ -257,16 +278,16 @@ a{
     color: #ea8462;
 }
 .my-item{
-     font-family: 'Playfair Display', serif;    
+     font-family: "Molengo", 'Playfair Display', serif;    
     font-size: 16px;
     margin-bottom: 40px;
 }
 .my-item-sub{
-    font-family: 'Share Tech Mono', monospace;
+    font-family: "Molengo", 'Share Tech Mono', monospace;
     font-size: 13px;
 }
 .my-tag{
-    font-family: 'Share Tech Mono', monospace;
+    font-family: "Molengo", 'Share Tech Mono', monospace;
     font-size: 14.5px;
     color: #4db6ac;
 }

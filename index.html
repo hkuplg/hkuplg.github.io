@@ -87,7 +87,7 @@ layout: default
       <p class="my-item">
         <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
         <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-          {{ post.content | strip_html | truncatewords: 20 }}
+          {{ post.content | remove_first: '<h2 id="abstract">Abstract</h2>' | strip_html | truncatewords: 30 }}
       </p>
     </li>
     {% endfor %}
