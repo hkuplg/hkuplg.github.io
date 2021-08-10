@@ -1,11 +1,11 @@
---- 
-layout:  post 
+---
+layout:  post
 title:   "Distributing Intersection and Union Types with Splits and Duality"
 authors: "Snow"
-date:    2021-08-09 10:00:00 +0800
+date:    2021-08-10 10:00:00 +0800
 venue:   "CB 313"
 categories: seminar
---- 
+---
 
 ## Abstract
 
