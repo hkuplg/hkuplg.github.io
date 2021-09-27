@@ -85,3 +85,6 @@
     - title: Type-directed Operational Semantics for Gradual Typing
       conf: ECOOP 21
       link: https://i.cs.hku.hk/~bruno/papers/ecoop2021.pdf
+    - title: Taming the Merge Operator
+      conf: JFP
+      link: https://i.cs.hku.hk/~bruno/papers/jfp2021.pdf
