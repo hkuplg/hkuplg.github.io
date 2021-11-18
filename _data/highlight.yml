@@ -1,5 +1,5 @@
 - work: Disjoint Intersection Types
-  description: These are a series of works about disjoint intersection types. By supporting a merge operator, the calculi with disjoint intersection types provide general mechanisms that can subsume various other features. Such calculi can also encode highly dynamic forms of object composition, which capture common programming patterns in dynamically typed languages (such as JavaScript) in a fully statically typed manner.
+  description: Calculi about disjoint intersection types enable an highly modular and compositional programming style that addresses the Expression Problem naturally, and allows for a much more dynamic form of inheritance.
   papers: 
     - title: Disjoint Intersection Types
       conf: ICFP 16
@@ -13,9 +13,6 @@
     - title: Distributive Disjoint Polymorphism for Compositional Programming
       conf: ESOP 19
       link: https://i.cs.hku.hk/~bruno/papers/esop2019.pdf
-    - title: A Type-Directed Operational Semantics for a Calculus with a Merge Operator
-      conf: ECOOP 20
-      link: https://i.cs.hku.hk/~bruno/papers/merge_ecoop2020.pdf
     - title: Row and Bounded Polymorphism via Disjoint Polymorphism
       conf: ECOOP 20
       link: https://i.cs.hku.hk/~bruno/papers/row-bounded_ecoop2020.pdf
@@ -59,7 +56,7 @@
       conf: POPL 20
       link: https://i.cs.hku.hk/~bruno/papers/popl20.pdf
 - work: Subtyping for Iso-recursive Types
-  description: This work reviews the Amber rules, a widely used subtyping rules for iso-recursive types and proposes a new iso-recursive subtyping rules. The novel design of double unfolding rules takes advantage over other designs on both theoretical side and implementation side.
+  description: A new iso-recursive subtyping formulation which takes advantage over other designs on both theoretical side and implementation side.
   papers:
     - title: Revisiting Iso-Recursive Subtyping
       conf: OOPSLA 20
@@ -76,3 +73,18 @@
     - title: The Duality of Subtyping
       conf: ECOOP 20
       link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
+    - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
+      conf: ICFP 21
+      link: https://i.cs.hku.hk/~bruno/papers/icfp2021.pdf
+- work: Type-directed Operational Semantics
+  description: Type-directed operational semantics(TDOS) is a variant of small-step operational semantics. In TDOS, type annotations become operationally relevant and can affect the result of a program. 
+  papers:
+    - title: A Type-Directed Operational Semantics for a Calculus with a Merge Operator
+      conf: ECOOP 20
+      link: https://i.cs.hku.hk/~bruno/papers/merge_ecoop2020.pdf
+    - title: Type-directed Operational Semantics for Gradual Typing
+      conf: ECOOP 21
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop2021.pdf
+    - title: Taming the Merge Operator
+      conf: JFP
+      link: https://i.cs.hku.hk/~bruno/papers/jfp2021.pdf
