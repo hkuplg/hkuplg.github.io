@@ -49,6 +49,9 @@
     - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
       conf: ICFP 19
       link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
+    - title: Elementary Type Inference
+      conf: ECOOP 22
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary.pdf
 - work: Kind Inference
   description: This work proposes a solution of challenge of kind inference for datatype declarations for Haskell98 and modern Haskell.
   papers:
@@ -76,6 +79,9 @@
     - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
       conf: ICFP 21
       link: https://i.cs.hku.hk/~bruno/papers/icfp2021.pdf
+    - title: Union Types with Disjoint Switches
+      conf: ECOOP 22
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop22switches.pdf
 - work: Type-directed Operational Semantics
   description: Type-directed operational semantics(TDOS) is a variant of small-step operational semantics. In TDOS, type annotations become operationally relevant and can affect the result of a program. 
   papers:
@@ -88,3 +94,6 @@
     - title: Taming the Merge Operator
       conf: JFP
       link: https://i.cs.hku.hk/~bruno/papers/jfp2021.pdf
+    - title: Direct Foundations for Compositional Programming
+      conf: ECOOP 22
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop22direct.pdf
