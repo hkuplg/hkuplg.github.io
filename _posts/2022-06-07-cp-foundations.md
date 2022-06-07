@@ -3,7 +3,7 @@ layout:  post
 title:   "Direct Foundations for Compositional Programming"
 authors: "Andong Fan"
 date:    2022-06-07 10:00:00 +0800
-venue:   "Mixed Mode (CB 308 + Zoom)"
+venue:   "Zoom"
 categories: seminar
 ---
 
