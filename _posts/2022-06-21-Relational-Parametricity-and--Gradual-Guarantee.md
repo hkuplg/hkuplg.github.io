@@ -1,9 +1,9 @@
 ---
 layout:  post
-Title: Relational Parametricity and Gradual Guarantee
-Date: 2022-06-21 10:00:00 +0800
-Venue: CB308 (Zoom: https://hku.zoom.us/j/96092001738)
-Speaker: Ye Wenjia
+title: Relational Parametricity and Gradual Guarantee
+date: 2022-06-21 10:00:00 +0800
+venue: "CB308 (Zoom: https://hku.zoom.us/j/96092001738)"
+speaker: Ye Wenjia
 categories: "problem session"
 ---
 ## Abstract
