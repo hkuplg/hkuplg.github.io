@@ -23,7 +23,7 @@
       conf: ECOOP 18
       link: https://i.cs.hku.hk/~bruno/papers/traits.pdf
     - title: Compositional Programming
-      conf: TOPLAS
+      conf: TOPLAS (ECOOP 21)
       link: https://i.cs.hku.hk/~bruno/papers/toplas2021.pdf
     - title: Compositional Embeddings of Domain-Specific Languages
       conf: OOPSLA 22
