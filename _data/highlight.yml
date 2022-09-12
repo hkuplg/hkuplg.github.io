@@ -25,11 +25,14 @@
     - title: Compositional Programming
       conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/toplas2021.pdf
+    - title: Compositional Embeddings of Domain-Specific Languages
+      conf: OOPSLA 22
+      link: 
 - work: Gradual Typing
   description: This work presents a generalized definition of consistent subtyping that works for polymorphic types. 
   papers:
     - title: Consistent Subtyping for All
-      conf: TOPLAS
+      conf: TOPLAS (ESOP 18)
       link: https://i.cs.hku.hk/~bruno/papers/gradual-esop18.pdf
 - work: Dependent Types
   description: Those works propose a unified syntax that accounts for types and terms which still preserves decidable type-checking.
@@ -44,7 +47,7 @@
       conf: SCP
       link: https://i.cs.hku.hk/~bruno/papers/scp2021.pdf
 - work: Higher-Ranked Polymorphism
-  description: This paper provides the first mechanized formalization of type inference for higher-ranked polymorphism. 
+  description: Mechanized formalization of type inference for higher-ranked polymorphism. 
   papers:
     - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
       conf: ICFP 19
@@ -62,8 +65,11 @@
   description: A new iso-recursive subtyping formulation which takes advantage over other designs on both theoretical side and implementation side.
   papers:
     - title: Revisiting Iso-Recursive Subtyping
-      conf: OOPSLA 20
-      link: https://i.cs.hku.hk/~bruno/papers/oopsla20-recursive.pdf
+      conf: TOPLAS (OOPSLA 20)
+      link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
+    - title: A Calculus with Recursive Types, Record Concatenation and Subtyping
+      conf: APLAS 22
+      link: https://i.cs.hku.hk/~bruno/papers/aplas22recursive.pdf
 - work: Bi-directional Type Checking
   description: This paper presents a variant of bi-directional type checking where the type information flows from arguments to functions. 
   papers:
@@ -71,7 +77,7 @@
       conf: ESOP 18
       link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
 - work: Intersection and Union Types
-  description: This paper proposes a novel methodology for designing subtyping relations that exploits duality between intersection types and union types.
+  description: Other theoretical papers involving intersection types and union types.
   papers:
     - title: The Duality of Subtyping
       conf: ECOOP 20
@@ -82,6 +88,9 @@
     - title: Union Types with Disjoint Switches
       conf: ECOOP 22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22switches.pdf
+    - title: Applicative Intersection Types
+      conf: APLAS 22
+      link: https://i.cs.hku.hk/~bruno/papers/aplas22applicative.pdf
 - work: Type-directed Operational Semantics
   description: Type-directed operational semantics(TDOS) is a variant of small-step operational semantics. In TDOS, type annotations become operationally relevant and can affect the result of a program. 
   papers:
