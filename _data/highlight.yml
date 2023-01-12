@@ -27,7 +27,10 @@
       link: https://i.cs.hku.hk/~bruno/papers/toplas2021.pdf
     - title: Compositional Embeddings of Domain-Specific Languages
       conf: OOPSLA 22
-      link: 
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla22.pdf
+    - title: Making a Type Difference
+      conf: POPL 23
+      link: https://i.cs.hku.hk/~bruno/papers/popl23making.pdf
 - work: Gradual Typing
   description: This work presents a generalized definition of consistent subtyping that works for polymorphic types. 
   papers:
@@ -70,6 +73,9 @@
     - title: A Calculus with Recursive Types, Record Concatenation and Subtyping
       conf: APLAS 22
       link: https://i.cs.hku.hk/~bruno/papers/aplas22recursive.pdf
+    - title: Recursive Subtyping for All
+      conf: POPL 23
+      link: https://i.cs.hku.hk/~bruno/papers/popl23recursive_extended.pdf
 - work: Bi-directional Type Checking
   description: This paper presents a variant of bi-directional type checking where the type information flows from arguments to functions. 
   papers:
@@ -91,6 +97,9 @@
     - title: Applicative Intersection Types
       conf: APLAS 22
       link: https://i.cs.hku.hk/~bruno/papers/aplas22applicative.pdf
+    - title: "A Bowtie for a Beast: Overloading, Eta Expansion and Extensible Datatypes in F⋈"
+      conf: POPL 23
+      link: https://i.cs.hku.hk/~bruno/papers/popl23bowtie.pdf
 - work: Type-directed Operational Semantics
   description: Type-directed operational semantics(TDOS) is a variant of small-step operational semantics. In TDOS, type annotations become operationally relevant and can affect the result of a program. 
   papers:
