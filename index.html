@@ -14,7 +14,8 @@ layout: default
     <ul>
       {% for pi in work.papers %}
       <li>
-        <a href="{{ pi.link }}">{{ pi.title }}</a> {{ pi.conf }}
+        <a href="{{ pi.link }}">{{ pi.title }}</a>
+        <small>{{ pi.conf }}</small>
       </li>
       {% endfor %}
     </ul>

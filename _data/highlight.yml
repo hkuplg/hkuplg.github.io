@@ -1,6 +1,6 @@
-- description: This line of work explores the theoretical aspects of the <i>merge operator</i>, revisits the <i>duality</i> of intersection and union types, and develops novel notions such as <i>disjoint intersection types</i>, <i>disjoint polymorphism</i>, <i>nested composition</i>, <i>disjoint switches</i>, and <i>type-directed operational semantics</i> (TDOS).
+- description: This line of work explores the theoretical aspects of the <i>merge operator</i> and develops novel notions such as <i>disjoint intersection types</i>, <i>disjoint polymorphism</i>, <i>nested composition</i>, <i>disjoint switches</i>, and <i>type-directed operational semantics</i> (TDOS).
   papers:
-    - title: "A Bowtie for a Beast: Overloading, Eta Expansion and Extensible Datatypes in F⋈"
+    - title: A Bowtie for a Beast
       conf: POPL'23
       link: https://i.cs.hku.hk/~bruno/papers/popl23bowtie.pdf
     - title: Making a Type Difference
@@ -18,15 +18,9 @@
     - title: Taming the Merge Operator
       conf: JFP
       link: https://i.cs.hku.hk/~bruno/papers/jfp2021.pdf
-    - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
-      conf: ICFP'21
-      link: https://i.cs.hku.hk/~bruno/papers/icfp2021.pdf
     - title: Row and Bounded Polymorphism via Disjoint Polymorphism
       conf: ECOOP'20
       link: https://i.cs.hku.hk/~bruno/papers/row-bounded_ecoop2020.pdf
-    - title: The Duality of Subtyping
-      conf: ECOOP'20
-      link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
     - title: Distributive Disjoint Polymorphism for Compositional Programming
       conf: ESOP'19
       link: https://i.cs.hku.hk/~bruno/papers/esop2019.pdf
@@ -91,3 +85,11 @@
     - title: Unifying Typing and Subtyping
       conf: OOPSLA'17
       link: https://i.cs.hku.hk/~bruno/papers/oopsla17.pdf
+- description: <i>Duotyping</i> exploits the duality of intersection and union types and simplifies metatheories.
+  papers:
+    - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
+      conf: ICFP'21
+      link: https://i.cs.hku.hk/~bruno/papers/icfp2021.pdf
+    - title: The Duality of Subtyping
+      conf: ECOOP'20
+      link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
