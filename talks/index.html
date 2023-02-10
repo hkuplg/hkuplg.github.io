@@ -3,40 +3,24 @@ layout: default
 ---
 
 <div class="home">
-  
+
   <h2 class="page-heading">List of Seminar Talks</h2>
- 
-  <ul class="post-list">
-    {% for post in paginator.posts %}
+
+  <ul>
+    {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+    <br/>
+    <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
+    {% assign date = currentdate %}
+    {% endif %}
       <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.date | date: "%Y.%-m.%-d." }}
+          <a href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}</a>
-          <small>{{ post.authors }}</small>
-        </h2>
-        
+          {{ post.authors }} {{ post.Speaker }}
+          <small>{{ post.date | date: "%Y/%-m/%-d" }}</small>
       </li>
     {% endfor %}
   </ul>
-
-  <!-- Pagination links -->
-  <div align="center"> 
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% else %}
-      <span class="previous">Previous</span>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% else %}
-      <span class="next ">Next</span>
-    {% endif %}
-  </div>
-  </div>
-
-  <p class="rss-subscribe">Archives on <a href="https://github.com/hkuplg/seminar-talks">Github</a><br />subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

@@ -1,6 +1,6 @@
 - work: Disjoint Intersection Types
-  description: Calculi about disjoint intersection types enable an highly modular and compositional programming style that addresses the Expression Problem naturally, and allows for a much more dynamic form of inheritance.
-  papers: 
+  description: enable an highly modular and compositional programming style that addresses the Expression Problem naturally and allows for a much more dynamic form of inheritance.
+  papers:
     - title: Disjoint Intersection Types
       conf: ICFP 16
       link: https://i.cs.hku.hk/~bruno/papers/icfp2016.pdf
@@ -17,13 +17,13 @@
       conf: ECOOP 20
       link: https://i.cs.hku.hk/~bruno/papers/row-bounded_ecoop2020.pdf
 - work: Compositional Programming
-  description: Those works present a novel modular programming style.
+  description: presents a novel modular programming style.
   papers:
     - title: Typed First-Class Traits
       conf: ECOOP 18
       link: https://i.cs.hku.hk/~bruno/papers/traits.pdf
     - title: Compositional Programming
-      conf: TOPLAS (ECOOP 21)
+      conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/toplas2021.pdf
     - title: Compositional Embeddings of Domain-Specific Languages
       conf: OOPSLA 22
@@ -32,13 +32,13 @@
       conf: POPL 23
       link: https://i.cs.hku.hk/~bruno/papers/popl23making.pdf
 - work: Gradual Typing
-  description: This work presents a generalized definition of consistent subtyping that works for polymorphic types. 
+  description: presents a generalized definition of consistent subtyping that works for polymorphic types.
   papers:
     - title: Consistent Subtyping for All
-      conf: TOPLAS (ESOP 18)
+      conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/gradual-esop18.pdf
 - work: Dependent Types
-  description: Those works propose a unified syntax that accounts for types and terms which still preserves decidable type-checking.
+  description: propose a unified syntax that accounts for types and terms which still preserves decidable type-checking.
   papers:
     - title: Unifying Typing and Subtyping
       conf: OOPSLA 17
@@ -50,7 +50,7 @@
       conf: SCP
       link: https://i.cs.hku.hk/~bruno/papers/scp2021.pdf
 - work: Higher-Ranked Polymorphism
-  description: Mechanized formalization of type inference for higher-ranked polymorphism. 
+  description: gives solution to mechanized formalization of type inference for higher-ranked polymorphism.
   papers:
     - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
       conf: ICFP 19
@@ -59,16 +59,16 @@
       conf: ECOOP 22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary.pdf
 - work: Kind Inference
-  description: This work proposes a solution of challenge of kind inference for datatype declarations for Haskell98 and modern Haskell.
+  description: proposes a solution of challenge of kind inference for datatype declarations for Haskell98 and modern Haskell.
   papers:
     - title: Kind Inference for Datatypes
       conf: POPL 20
       link: https://i.cs.hku.hk/~bruno/papers/popl20.pdf
 - work: Subtyping for Iso-recursive Types
-  description: A new iso-recursive subtyping formulation which takes advantage over other designs on both theoretical side and implementation side.
+  description: gives a new iso-recursive subtyping formulation which takes advantage over other designs on both theoretical side and implementation side.
   papers:
     - title: Revisiting Iso-Recursive Subtyping
-      conf: TOPLAS (OOPSLA 20)
+      conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
     - title: A Calculus with Recursive Types, Record Concatenation and Subtyping
       conf: APLAS 22
@@ -77,13 +77,13 @@
       conf: POPL 23
       link: https://i.cs.hku.hk/~bruno/papers/popl23recursive_extended.pdf
 - work: Bi-directional Type Checking
-  description: This paper presents a variant of bi-directional type checking where the type information flows from arguments to functions. 
+  description: studies a variant of bi-directional type checking where the type information flows from arguments to functions.
   papers:
     - title: Let Arguments go First
       conf: ESOP 18
       link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
 - work: Intersection and Union Types
-  description: Other theoretical papers involving intersection types and union types.
+  description: study several calculi and their metatheory, semantics and applications.
   papers:
     - title: The Duality of Subtyping
       conf: ECOOP 20
@@ -101,7 +101,7 @@
       conf: POPL 23
       link: https://i.cs.hku.hk/~bruno/papers/popl23bowtie.pdf
 - work: Type-directed Operational Semantics
-  description: Type-directed operational semantics(TDOS) is a variant of small-step operational semantics. In TDOS, type annotations become operationally relevant and can affect the result of a program. 
+  description: is a type-dependent operational semantics where type annotations become operationally relevant.
   papers:
     - title: A Type-Directed Operational Semantics for a Calculus with a Merge Operator
       conf: ECOOP 20

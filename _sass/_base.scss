@@ -65,6 +65,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+    // list-style: none;
 }
 
 li {
@@ -95,7 +96,7 @@ a {
     /**
     &:visited {
         color: darken($brand-color, 15%);
-    } 
+    }
     **/
 
     &:hover {

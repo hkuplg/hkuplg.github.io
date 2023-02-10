@@ -1,150 +1,27 @@
 ---
 layout: default
 ---
-<script src="{{ "/styles/index.js" | prepend: site.baseurl }}"></script>
 
-<div>
-  <a id="highlight-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_highlight();">{{ site.highlight_btn }}</a>
-  <a id="members-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_members();">{{ site.members_btn }}</a>
-  <a id="posts-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_posts();">{{ site.posts_btn }}</a>
-  <a id="projects-btn" class="waves-effect waves-teal btn-flat btn-large" onclick="show_projects();">{{ site.projects_btn }}</a>
-</div>
+<div class="home">
 
-<div id="highlight">
-  
-  <h2 class="my-mini-heading">{{ site.highlight_btn }}</h2>
+  <h2>HKU Programming Languages Group</h2>
+
+  <p>{{ site.about }}</p>
+
+  <h2>Research Highlights</h2>
 
   {% for work in site.data.highlight %}
-  <div class="my-highlight">
-    <h4 class="my-mini-heading-sub">{{ work.work }}</h4>
-    <p>{{ work.description }}</p>
+  <p>
+    <b>{{ work.work }}</b>
+    {{ work.description }}
     <ul>
       {% for pi in work.papers %}
       <li>
-        <p class="my-item-subsub"><a href="{{ pi.link }}" >{{ pi.title }}</a>
-          {{ pi.conf }}
-        </p>
+        <a href="{{ pi.link }}">{{ pi.title }}</a> {{ pi.conf }}
       </li>
       {% endfor %}
     </ul>
-  </div>
+  </p>
   {% endfor %}
-  
-  <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
+
 </div>
-
-<div id="members">
-
-  <h2 class="my-mini-heading">{{ site.members_btn }}</h2>
-
-  <h4 class="my-mini-heading-sub">Faculty</h4>
-  <ul>
-    {% for pi in site.data.faculty %}
-    <li>
-      <p class="my-item-sub"><a href="{{ pi.link }}" class="my-link">{{ pi.name }}</a>
-        {{ pi.title }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h4 class="my-mini-heading-sub">Current Members</h4>
-  <ul>
-    {% for pi in site.data.students %}
-    <li>
-      <p class="my-item-sub"><a href="{{ pi.link }}" class="my-link">{{ pi.name }}</a>
-        {{ pi.title }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h4 class="my-mini-heading-sub">Alumni</h4>
-  <ul>
-    {% for pi in site.data.alumni %}
-    <li>
-      <p class="my-item-sub"><a href="{{ pi.link }}" class="my-link">{{ pi.name }}</a>
-        {{ pi.title }}
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
-  <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
-  </div>
-
-
-<div id="posts">
-
-  <h2 class="my-mini-heading">{{ site.posts_btn }}</h2>
-
-  <ul>
-    {% for post in paginator.posts %}
-    <li>
-      <p class="my-item">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
-        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-          {{ post.content | remove_first: '<h2 id="abstract">Abstract</h2>' | strip_html | truncatewords: 30 }}
-      </p>
-    </li>
-    {% endfor %}
-    <!-- Pagination links -->
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}?show=posts" class="previous">
-          Previous
-        </a>
-      {% else %}
-        <span class="previous">Previous</span>
-      {% endif %}
-      <span class="page_number ">
-        Page: {{ paginator.page }} of {{ paginator.total_pages }}
-      </span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}?show=posts" class="next">Next</a>
-      {% else %}
-        <span class="next ">Next</span>
-      {% endif %}
-    </div>
-  </ul>
-
-  <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
-</div>
-
-
-<div id="projects">
-  <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
-  <ul>
-    {% for photo in site.data.gallery %}
-    <li>
-      <figure>
-         <img src=" {{ photo.url }}" alt='missing' />
-         <figcaption>{{ photo.name }}</figcaption>
-    </figure>
-    </li>
-    {% endfor %}
-  </ul>
-  <div>
-    <a onclick="hide_lists();" class="waves-effect waves-teal btn-flat btn-large">{{ site.close_btn }}</a>
-  </div>
-
-  <script type="text/javascript">
-　　function myfun(){
-        var url = document.location.toString();
-        var paras = url.split("?");
-        console.log(paras);
-        if (paras[1]=="show=posts") {
-          show_posts();
-        } else {
-            show_highlight();
-        }
-　　} 　　
-    window.onload = myfun;
-</script>
-</div>
-
