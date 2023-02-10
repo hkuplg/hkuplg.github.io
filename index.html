@@ -4,15 +4,12 @@ layout: default
 
 <div class="home">
 
-  <h2>HKU Programming Languages Group</h2>
-
   <p>{{ site.about }}</p>
 
   <h2>Research Highlights</h2>
 
   {% for work in site.data.highlight %}
   <p>
-    <b>{{ work.work }}</b>
     {{ work.description }}
     <ul>
       {% for pi in work.papers %}
