@@ -3,7 +3,7 @@ layout:  post
 title: "Relational Parametricity and Gradual Guarantee"
 date: 2022-06-21 10:00:00 +0800
 venue: "CB308 + Zoom"
-speaker: Ye Wenjia
+authors: Ye Wenjia
 categories: problem session
 ---
 ## Abstract

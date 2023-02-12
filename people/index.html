@@ -9,7 +9,7 @@ layout: default
       <td valign="top">
         <ul>
           {% for pi in site.data.faculty %}
-          <li><a href=" {{ pi.link }}"> {{ pi.name }} </a> ({{ pi.title }}) </li>
+          <li><a href="{{ pi.link }}"> {{ pi.name }} </a> ({{ pi.title }}) </li>
           {% endfor %}
         </ul>
       </td>
@@ -21,7 +21,13 @@ layout: default
 <h3>Current Members</h3>
 <ul>
   {% for pi in site.data.students %}
-  <li><a href=" {{ pi.link }} "> {{ pi.name }} </a></li>
+    <li>
+      {% if pi.link %}
+        <a href="{{ pi.link }}">{{ pi.name }}</a>
+      {% else %}
+        {{ pi.name }}
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>
 </td>
@@ -30,7 +36,13 @@ layout: default
 <h3>Alumni</h3>
 <ul>
   {% for pi in site.data.alumni %}
-  <li><a href="{{ pi.link }}">{{ pi.name }}</a></li>
+    <li>
+      {% if pi.link %}
+        <a href="{{ pi.link }}">{{ pi.name }}</a>
+      {% else %}
+        {{ pi.name }}
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>
 
