@@ -1,6 +1,6 @@
 --- 
 layout:  post 
-title:   -
+title:   Algebraic Effects
 authors: Shengyi
 date:    2023-03-02 10:10:00 +0800
 venue:   CB308
