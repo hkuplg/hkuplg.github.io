@@ -2,7 +2,7 @@
 layout:  post 
 title:   "Revisiting Disjoint Polymorphism"
 authors: "Baber"
-date:    2023-03-10 10:10:00 +0800
+date:    2023-03-09 10:10:00 +0800
 venue:   "CB308"
 categories: seminar
 ---
