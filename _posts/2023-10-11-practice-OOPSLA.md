@@ -1,7 +1,7 @@
 ---
 layout:  post
 title:   Two Practice Talks for OOPSLA
-authors: Chen & Wenjia
+authors: Chen, Wenjia
 date:    2023-10-11 10:10:00 +0800
 venue:   CB308
 ---
