@@ -10,7 +10,7 @@ venue:   CB308
 
 ### Greedy Implicit Bounded Quantification
 
-https://2023.splashcon.org/details/splash-2023-oopsla/105/Greedy-Implicit-Bounded-Quantification
+<https://2023.splashcon.org/details/splash-2023-oopsla/105/Greedy-Implicit-Bounded-Quantification>
 
 Mainstream object-oriented programming languages such as Java, Scala, C#, or TypeScript have polymorphic type systems with subtyping and bounded quantification. Bounded quantification, despite being a pervasive and widely used feature, has attracted little research work on type-inference algorithms to support it. A notable exception is local type inference, which is the basis of most current implementations of type inference for mainstream languages. However, support for bounded quantification in local type inference has important restrictions, and its non-algorithmic specification is complex.
 
@@ -19,7 +19,7 @@ In this paper, we present a variant of kernel $F_{\le}$, which is the canonical 
 
 ### A Gradual Probabilistic Lambda Calculus
 
-https://2023.splashcon.org/details/splash-2023-oopsla/10/A-Gradual-Probabilistic-Lambda-Calculus
+<https://2023.splashcon.org/details/splash-2023-oopsla/10/A-Gradual-Probabilistic-Lambda-Calculus>
 
 Probabilistic programming languages have recently gained a lot of attention, in particular due to their applications in domains such as machine learning and differential privacy. To establish invariants of interest, many such languages include some form of static checking in the form of type systems. However, adopting such a type discipline can be cumbersome or overly conservative.
 
