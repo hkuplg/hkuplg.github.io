@@ -2,7 +2,7 @@
 layout:  post
 title:   Extending Higher-rank Polymorphism to Intersection and Union Type
 authors: Shengyi
-date:    2023-10-04 10:10:00 +0800
+date:    2023-10-18 10:10:00 +0800
 venue:   CB308
 ---
 
