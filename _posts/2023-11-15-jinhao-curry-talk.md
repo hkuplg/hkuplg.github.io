@@ -2,7 +2,7 @@
 layout:  post 
 title:   Adding Currying to Subtyping
 authors: Jinhao Tan
-date:    2023-11-01 10:10:00 +0800
+date:    2023-11-15 10:10:00 +0800
 venue:   CB308
 --- 
 
