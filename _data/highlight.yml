@@ -1,5 +1,8 @@
-- description: This line of work explores the theoretical aspects of the <i>merge operator</i> and develops novel notions such as <i>disjoint intersection types</i>, <i>disjoint polymorphism</i>, <i>nested composition</i>, <i>disjoint switches</i>, <i>type difference</i>, and <i>type-directed operational semantics</i>.
+- description: This line of work explores the theoretical aspects of the <i>merge operator</i> and develops novel notions such as <i>disjoint intersection types</i>, <i>disjoint polymorphism</i>, <i>nested composition</i>, <i>disjoint switches</i>, <i>type difference</i>, <i>dependent merges</i>, and <i>type-directed operational semantics</i>.
   papers:
+    - title: Dependent Merges and First-Class Environments
+      conf: ECOOP'23
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop23.pdf
     - title: A Bowtie for a Beast
       conf: POPL'23
       link: https://i.cs.hku.hk/~bruno/papers/popl23bowtie_extended.pdf
@@ -33,7 +36,7 @@
     - title: Disjoint Intersection Types
       conf: ICFP'16
       link: https://i.cs.hku.hk/~bruno/papers/icfp2016.pdf
-- description: <i>Compositional Programming</i>, based on calculi with the merge operator, is a new statically-typed programming paradigm that addresses challenges like the Expression Problem and improves the modularity and extensibility of domain-specific languages.
+- description: <i>Compositional Programming</i>, based on calculi with the merge operator and first-class traits, is a new statically-typed programming paradigm that addresses challenges like the Expression Problem and improves the modularity and extensibility of domain-specific languages.
   papers:
     - title: Compositional Embeddings of Domain-Specific Languages
       conf: OOPSLA'22
@@ -60,6 +63,9 @@
       link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
 - description: Our work proposes a variant of bidirectional typing and a new mechanized proof technique, both of which give solutions to type inference for <i>higher-ranked polymorphism</i>.
   papers:
+    - title: Greedy Implicit Bounded Quantification
+      conf: OOPSLA'23
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla23.pdf
     - title: Elementary Type Inference
       conf: ECOOP'22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary_full.pdf
@@ -82,6 +88,9 @@
       link: https://i.cs.hku.hk/~bruno/papers/oopsla17.pdf
 - description: Our work presents a generalized definition of consistent subtyping in gradually-typed calculi with implicit polymorphism and applies type-directed operational semantics to <i>gradual typing</i>.
   papers:
+    - title: Pragmatic Gradual Polymorphism with References
+      conf: ESOP'23
+      link: https://i.cs.hku.hk/~bruno/papers/esop23.pdf
     - title: Type-Directed Operational Semantics for Gradual Typing
       conf: ECOOP'21
       link: https://i.cs.hku.hk/~bruno/papers/ecoop2021.pdf
