@@ -18,3 +18,15 @@ new value of x, while ‘setX(int x)’ would mutate the current point.
 How to fully support the iconic Point/ColorPoint subtyping example
 with withers? As we will show, this is not trivial, there are multiple
 possible solutions and they are all (in my opinion) unsatisfactory.
+
+
+> **Zoom link**
+> 
+> Topic: PL Group Seminar
+> Time: Jan 15, 2024 04:00 PM Hong Kong SAR
+> 
+> Join Zoom Meeting
+> https://hku.zoom.us/j/93354032165?pwd=eVN6NFNtbGlaajBKUFdvb2w5RTExUT09
+> 
+> Meeting ID: 933 5403 2165
+> Password: 942828
