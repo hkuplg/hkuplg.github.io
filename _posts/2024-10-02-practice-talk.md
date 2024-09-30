@@ -2,8 +2,8 @@
 layout:  post 
 title:   Yet another practice talk for OOPSLA
 authors: Yaozhu
-date:    2024-10-02 10:10:00 GMT+8
-venue:   CB308
+date:    2024-10-02 10:00:00 GMT+8
+venue:   CB313
 ---
 
 ### Imperative Compositional Programming: Type Sound Distributive Intersection Subtyping with References via Bidirectional Typing
