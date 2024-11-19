@@ -1,6 +1,6 @@
 --- 
 layout:  post
-title:   Merges with semantic typing
+title:   Merges with Semantic Typing
 authors: Qianyong
 date:    2024-11-20 10:15:00 GMT+8
 venue:   CB308
