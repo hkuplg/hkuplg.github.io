@@ -1,3 +1,54 @@
+- description: Our work proposes new designs for <i>iso-recursive subtyping</i> and investigates its integration with various language features.
+  papers:
+    - title: Recursive Subtyping for All
+      conf: JFP
+      link: https://i.cs.hku.hk/~bruno/papers/jfp25.pdf
+    - title: QuickSub: Efficient Iso-Recursive Subtyping
+      conf: POPL'25
+      link: https://i.cs.hku.hk/~bruno/papers/popl25_quicksub.pdf
+    - title: Full Iso-Recursive Types
+      conf: OOPSLA'24
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla24_full.pdf
+    - title: A Calculus with Recursive Types, Record Concatenation and Subtyping
+      conf: APLAS'22
+      link: https://i.cs.hku.hk/~bruno/papers/aplas22recursive.pdf
+    - title: Revisiting Iso-Recursive Subtyping
+      conf: TOPLAS
+      link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
+- description: Our work improves upon <i>bidirectional typing</i> and proposes new mechanized <i>type inference</i> techniques.
+  papers:
+    - title: Bidirectional Higher-Rank Polymorphism with Intersection and Union Types
+      conf: POPL'25
+      link: https://i.cs.hku.hk/~bruno/papers/popl25_hrp.pdf
+    - title: Contextual Typing
+      conf: ICFP'24
+      link: https://i.cs.hku.hk/~bruno/papers/icfp24.pdf
+    - title: Greedy Implicit Bounded Quantification
+      conf: OOPSLA'23
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla23.pdf
+    - title: Elementary Type Inference
+      conf: ECOOP'22
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary_full.pdf
+    - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
+      conf: ICFP'19
+      link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
+    - title: Let Arguments Go First
+      conf: ESOP'18
+      link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
+- description: Our work explores the duality of intersection and union types and simplifies metatheories.
+  papers:
+    - title: Named Arguments as Intersections, Optional Arguments as Unions
+      conf: ESOP'25
+      link: https://i.cs.hku.hk/~bruno/papers/esop25named.pdf
+    - title: Union Types with Disjoint Switches
+      conf: ECOOP'22
+      link: https://i.cs.hku.hk/~bruno/papers/ecoop22switches.pdf
+    - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
+      conf: ICFP'21
+      link: https://i.cs.hku.hk/~bruno/papers/icfp2021.pdf
+    - title: The Duality of Subtyping
+      conf: ECOOP'20
+      link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
 - description: This line of work explores the theoretical aspects of the <i>merge operator</i> and develops novel notions such as <i>disjoint intersection types</i>, <i>disjoint polymorphism</i>, <i>nested composition</i>, <i>disjoint switches</i>, <i>type difference</i>, <i>dependent merges</i>, and <i>type-directed operational semantics</i>.
   papers:
     - title: A Case for First-Class Environments
@@ -15,9 +66,6 @@
     - title: Applicative Intersection Types
       conf: APLAS'22
       link: https://i.cs.hku.hk/~bruno/papers/aplas22applicative.pdf
-    - title: Union Types with Disjoint Switches
-      conf: ECOOP'22
-      link: https://i.cs.hku.hk/~bruno/papers/ecoop22switches.pdf
     - title: Direct Foundations for Compositional Programming
       conf: ECOOP'22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22direct_extended.pdf
@@ -56,48 +104,6 @@
     - title: Typed First-Class Traits
       conf: ECOOP'18
       link: https://i.cs.hku.hk/~bruno/papers/traits.pdf
-- description: Our work proposes a new formalization of <i>iso-recursive subtyping</i> and investigates its integration with various language features.
-  papers:
-    - title: Full Iso-Recursive Types
-      conf: OOPSLA'24
-      link: https://i.cs.hku.hk/~bruno/papers/oopsla24_full.pdf
-    - title: Recursive Subtyping for All
-      conf: POPL'23
-      link: https://i.cs.hku.hk/~bruno/papers/popl23recursive_extended.pdf
-    - title: A Calculus with Recursive Types, Record Concatenation and Subtyping
-      conf: APLAS'22
-      link: https://i.cs.hku.hk/~bruno/papers/aplas22recursive.pdf
-    - title: Revisiting Iso-Recursive Subtyping
-      conf: TOPLAS
-      link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
-- description: Our work improves upon <i>bidirectional typing</i> and proposes a new mechanized <i>type inference</i> technique.
-  papers:
-    - title: Contextual Typing
-      conf: ICFP'24
-      link: https://i.cs.hku.hk/~bruno/papers/icfp24.pdf
-    - title: Greedy Implicit Bounded Quantification
-      conf: OOPSLA'23
-      link: https://i.cs.hku.hk/~bruno/papers/oopsla23.pdf
-    - title: Elementary Type Inference
-      conf: ECOOP'22
-      link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary_full.pdf
-    - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
-      conf: ICFP'19
-      link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
-    - title: Let Arguments Go First
-      conf: ESOP'18
-      link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
-- description: Our work <i>unifies typing and subtyping</i> in dependently-typed calculi, which still preserves decidable type checking.
-  papers:
-    - title: A Dependently Typed Calculus with Polymorphic Subtyping
-      conf: SCP
-      link: https://i.cs.hku.hk/~bruno/papers/scp2021.pdf
-    - title: Pure Iso-Type Systems
-      conf: JFP
-      link: https://i.cs.hku.hk/~bruno/papers/pits.pdf
-    - title: Unifying Typing and Subtyping
-      conf: OOPSLA'17
-      link: https://i.cs.hku.hk/~bruno/papers/oopsla17.pdf
 - description: Our work presents a generalized definition of consistent subtyping in gradually-typed calculi with implicit polymorphism and applies type-directed operational semantics to <i>gradual typing</i>.
   papers:
     - title: Merging Gradual Typing
@@ -112,11 +118,14 @@
     - title: Consistent Subtyping for All
       conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/consistentTOPLAS.pdf
-- description: <i>Duotyping</i> exploits the duality of intersection and union types and simplifies metatheories.
+- description: Our work <i>unifies typing and subtyping</i> in dependently-typed calculi, which still preserves decidable type checking.
   papers:
-    - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
-      conf: ICFP'21
-      link: https://i.cs.hku.hk/~bruno/papers/icfp2021.pdf
-    - title: The Duality of Subtyping
-      conf: ECOOP'20
-      link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
+    - title: A Dependently Typed Calculus with Polymorphic Subtyping
+      conf: SCP
+      link: https://i.cs.hku.hk/~bruno/papers/scp2021.pdf
+    - title: Pure Iso-Type Systems
+      conf: JFP
+      link: https://i.cs.hku.hk/~bruno/papers/pits.pdf
+    - title: Unifying Typing and Subtyping
+      conf: OOPSLA'17
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla17.pdf
