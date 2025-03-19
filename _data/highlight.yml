@@ -40,6 +40,9 @@
     - title: Named Arguments as Intersections, Optional Arguments as Unions
       conf: ESOP'25
       link: https://i.cs.hku.hk/~bruno/papers/esop25named.pdf
+    - title: Disjoint Polymorphism with Intersection and Union Types
+      conf: FTfJP'24
+      link: https://i.cs.hku.hk/~bruno/papers/FTFJP24.pdf
     - title: Union Types with Disjoint Switches
       conf: ECOOP'22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22switches.pdf
