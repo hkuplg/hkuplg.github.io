@@ -3,7 +3,7 @@
     - title: Recursive Subtyping for All
       conf: JFP
       link: https://i.cs.hku.hk/~bruno/papers/jfp25.pdf
-    - title: QuickSub: Efficient Iso-Recursive Subtyping
+    - title: "QuickSub: Efficient Iso-Recursive Subtyping"
       conf: POPL'25
       link: https://i.cs.hku.hk/~bruno/papers/popl25_quicksub.pdf
     - title: Full Iso-Recursive Types
