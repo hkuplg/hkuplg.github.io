@@ -2,7 +2,7 @@
  layout:  post 
  title:   Normalization by Evaluation for Non-cumulativity
  authors: Shengyi Jiang
- date:    2025-3-26 10:10:00 +0800
+ date:    2025-03-26 10:10:00 +0800
  venue:   CB313
 --- 
 
