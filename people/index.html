@@ -34,7 +34,7 @@ layout: default
 
 <h3>Other Co-supervised Graduate Students</h3>
 <ul>
-    Please refer to <a href="https://www.cs.hku.hk/people/research-student">the full list of research students in HKUCDS</a>
+    Please refer to <a href="https://www.cs.hku.hk/people/research-student">the list of HKUCDS research students</a>
 </ul>
 </td>
 
@@ -52,5 +52,20 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+<h3>Interns</h3>
+<ul>
+    {% for pi in site.data.interns %}
+    <li>
+        {% if pi.link %}
+        <a href="{{ pi.link }}">{{ pi.name }}</a>
+        {% else %}
+        {{ pi.name }}
+        {% endif %}
+        ({{ pi.title }})
+    </li>
+    {% endfor %}
+</ul>
+</td>
 
 </table>
