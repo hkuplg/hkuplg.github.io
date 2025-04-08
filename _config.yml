@@ -4,12 +4,12 @@ permalink: 'pretty'
 exclude: ['Gemfile', 'Gemfile.lock', 'node_modules', 'package.json', 'Gruntfile.js', 'README.md']
 # email: not yet set
 description: > # this means to ignore newlines until "baseurl:"
-  Programming Languages Group at the University of Hong Kong
+  Programming Languages Group at The University of Hong Kong
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hkuplg.github.io" # the base hostname & protocol for your site
 #twitter_username: hkuplg
 github_username:  hkuplg
-about: The programming languages group at the University of Hong Kong conducts research on programming language design and implementation, especially about type systems.
+about: The programming languages group at The University of Hong Kong (HKU) conducts research on programming language design and implementation, especially about type systems.
 location: The University of Hong Kong
 
 # Build settings
