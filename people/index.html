@@ -24,14 +24,14 @@ layout: default
     <li>
       {% if pi.link %}
         <a href="{{ pi.link }}">{{ pi.name }}</a>
-        {% else %}
+      {% else %}
         {{ pi.name }}
-        {% endif %}
-        ({{ pi.title }})
+      {% endif %}
     </li>
     <li>
         {{ pi.title }}
     </li>
+    {% endfor %}
 </ul>
 
 <h3>Other Co-supervised Graduate Students</h3>
