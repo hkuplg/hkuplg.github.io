@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <p>{{ site.about }}</p>
+
+    <h2>Research Theses</h2>
+
+
+    <p>
+        <ul>
+          {% for work in site.data.theses %}
+            <li>
+                {{ work.title }}
+                <a href="{{ work.link }}">{{ work.title }}</a>
+                <br>{{ work.name }}
+                <br>{{ work.info }}
+            </li>
+          {% endfor %}
+        </ul>
+    </p>
+
+</div>
