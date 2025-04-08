@@ -4,16 +4,23 @@ layout: default
 
 <div class="home">
 
-    <h2 class="page-heading">Research Theses</h2>
+    <h2 class="page-heading">List of Seminar Talks</h2>
 
     <ul>
-      {% for work in site.data.theses %}
+        {% for post in site.posts %}
+        {% assign currentdate = post.date | date: "%Y" %}
+        {% if currentdate != date %}
+        <br/>
+        <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
+        {% assign date = currentdate %}
+        {% endif %}
         <li>
-            <a href="{{ work.link }}">{{ work.title }}</a>
-            <br/>{{ work.name }}
-            <br/>{{ work.info }}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.title }}</a>
+            {{ post.authors }} {{ post.Speaker }}
+            <small>{{ post.date | date: "%Y/%-m/%-d" }}</small>
         </li>
-      {% endfor %}
+        {% endfor %}
     </ul>
 
 </div>
