@@ -161,7 +161,7 @@
       conf: MODULARITY'16
       link: https://doi.org/10.1145/2889443.2889448
     - title: Classless Java
-      conf: SIGPLAN Not.
+      conf: "SIGPLAN Not."
       link: https://doi.org/10.1145/3093335.2993238
     - title: Scrap your Boilerplate with Object Algebras
       conf: OOPSLA'15
@@ -186,7 +186,7 @@
       conf: POPL'19
       link: https://doi.org/10.1145/3371121
     - title: Separating Use and Reuse to Improve Both
-      conf: The Art, Science, and Engineering of Programming
+      conf: "The Art, Science, and Engineering of Programming"
       link: https://doi.org/10.22152/programming-journal.org/2019/3/12
     - title: "Cochis: Stable and Coherent Implicits"
       conf: JFP
