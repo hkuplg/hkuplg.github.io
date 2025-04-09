@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<h2 class="page-heading">Blog Posts</h2>
+
+<ul>
+    {% for pi in site.data.blogs %}
+    <li><a href="{{ pi.link }}"> {{ pi.title }} </a>
+        {{ pi.author }}
+        {% if pi.date %}
+        <small>{{ pi.date }}</small>
+        {% endif %}
+        {% if pi.abs %}
+        <br><small>{{ pi.abs }}</small>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
