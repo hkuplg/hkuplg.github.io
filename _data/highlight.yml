@@ -138,7 +138,8 @@
     - title: Unifying Typing and Subtyping
       conf: OOPSLA'17
       link: https://i.cs.hku.hk/~bruno/papers/oopsla17.pdf
-- description: This line of work investigates techniques for enhancing modularity in software development, with a particular emphasis on <i>object algebras</i>
+- description: This line of work investigates techniques for enhancing modularity in software development, with a particular emphasis on <i>object algebras</i>.
+  papers:
     - title: Pattern Matching in an Open World
       conf: GPCE'18
       link: https://doi.org/10.1145/3278122.3278124
@@ -173,6 +174,7 @@
       conf: WGP'14
       link: https://doi.org/10.1145/2633628.2633637
 - description: The following works were carried out in close partnership with external collaborators. We are very thankful for their insights, generosity, and the opportunity to work together.
+  papers:
     - title: "VST-A: A Foundationally Sound Annotation Verifier"
       conf: POPL'24
       link: https://doi.org/10.1145/3632911
