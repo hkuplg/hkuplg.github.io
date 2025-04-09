@@ -1,4 +1,4 @@
-- description: Our work proposes new designs for <i>iso-recursive subtyping</i> and investigates its integration with various language features.
+- description: This line of work introduces new designs for <i>iso-recursive subtyping</i> and explores their integration with various language features.
   papers:
     - title: Recursive Subtyping for All
       conf: JFP
@@ -15,17 +15,17 @@
     - title: Revisiting Iso-Recursive Subtyping
       conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
-- description: Our work improves upon <i>bidirectional typing</i> and proposes new mechanized <i>type inference</i> techniques.
+- description: This line of work focuses on improving <i>bidirectional typing</i>, <i>type inference</i>, and formalization of subtyping.
   papers:
     - title: Bidirectional Higher-Rank Polymorphism with Intersection and Union Types
       conf: POPL'25
-      link: https://i.cs.hku.hk/~bruno/papers/popl25_hrp.pdf
+      link: https://doi.org/10.1145/3704907
     - title: Contextual Typing
       conf: ICFP'24
-      link: https://i.cs.hku.hk/~bruno/papers/icfp24.pdf
+      link: https://doi.org/10.1145/3674655
     - title: Greedy Implicit Bounded Quantification
       conf: OOPSLA'23
-      link: https://i.cs.hku.hk/~bruno/papers/oopsla23.pdf
+      link: https://doi.org/10.1145/3622871
     - title: Elementary Type Inference
       conf: ECOOP'22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary_full.pdf
@@ -35,7 +35,10 @@
     - title: Let Arguments Go First
       conf: ESOP'18
       link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
-- description: Our work explores the duality of intersection and union types and simplifies metatheories.
+    - title: Formalization of a Polymorphic Subtyping Algorithm
+      conf: ITP'18
+      link: https://i.cs.hku.hk/~bruno/papers/itp2018.pdf
+- description: This line of work explores the duality between intersection and union types and aims to simplify their metatheories.
   papers:
     - title: Named Arguments as Intersections, Optional Arguments as Unions
       conf: ESOP'25
@@ -48,48 +51,51 @@
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22switches.pdf
     - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
       conf: ICFP'21
-      link: https://i.cs.hku.hk/~bruno/papers/icfp2021.pdf
+      link: https://doi.org/10.1145/3473594
     - title: The Duality of Subtyping
       conf: ECOOP'20
       link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
 - description: This line of work explores the theoretical aspects of the <i>merge operator</i> and develops novel notions such as <i>disjoint intersection types</i>, <i>disjoint polymorphism</i>, <i>nested composition</i>, <i>disjoint switches</i>, <i>type difference</i>, <i>dependent merges</i>, and <i>type-directed operational semantics</i>.
   papers:
+    - title: Disjoint Polymorphism with Intersection and Union Types
+      conf: FTfJP'24
+      link: https://doi.org/10.1145/3580438
     - title: A Case for First-Class Environments
       conf: OOPSLA'24
-      link: https://i.cs.hku.hk/~bruno/papers/oopsla24_first.pdf
+      link: https://doi.org/10.1145/3689800
     - title: Dependent Merges and First-Class Environments
       conf: ECOOP'23
-      link: https://i.cs.hku.hk/~bruno/papers/ecoop23.pdf
-    - title: A Bowtie for a Beast
+      link: https://doi.org/10.4230/LIPIcs.ECOOP.2023.34
+    - title: A Bowtie for a Beast: Overloading, Eta Expansion, and Extensible Data Types in F⋈
       conf: POPL'23
-      link: https://i.cs.hku.hk/~bruno/papers/popl23bowtie_extended.pdf
-    - title: Making a Type Difference
+      link: https://doi.org/10.1145/3571211
+    - title: Making a Type Difference: Subtraction on Intersection Types as Generalized Record Operations
       conf: POPL'23
-      link: https://i.cs.hku.hk/~bruno/papers/popl23making.pdf
+      link: https://doi.org/10.1145/3571224
     - title: Applicative Intersection Types
       conf: APLAS'22
       link: https://i.cs.hku.hk/~bruno/papers/aplas22applicative.pdf
     - title: Direct Foundations for Compositional Programming
       conf: ECOOP'22
-      link: https://i.cs.hku.hk/~bruno/papers/ecoop22direct_extended.pdf
+      link: https://doi.org/10.4230/LIPIcs.ECOOP.2022.18
     - title: Taming the Merge Operator
       conf: JFP
-      link: https://i.cs.hku.hk/~bruno/papers/jfp2021.pdf
+      link: https://doi.org/10.1017/S0956796821000186
     - title: Row and Bounded Polymorphism via Disjoint Polymorphism
       conf: ECOOP'20
-      link: https://i.cs.hku.hk/~bruno/papers/row-bounded_ecoop2020.pdf
+      link: https://doi.org/10.4230/LIPIcs.ECOOP.2020.27
     - title: Distributive Disjoint Polymorphism for Compositional Programming
       conf: ESOP'19
       link: https://i.cs.hku.hk/~bruno/papers/esop2019.pdf
     - title: The Essence of Nested Composition
       conf: ECOOP'18
-      link: https://i.cs.hku.hk/~bruno/papers/nested.pdf
+      link: https://doi.org/10.4230/LIPIcs.ECOOP.2018.22
     - title: Disjoint Polymorphism
       conf: ESOP'17
       link: https://i.cs.hku.hk/~bruno/papers/ESOP2017.pdf
     - title: Disjoint Intersection Types
       conf: ICFP'16
-      link: https://i.cs.hku.hk/~bruno/papers/icfp2016.pdf
+      link: https://doi.org/10.1145/2951913.2951945
 - description: <i>Compositional Programming</i>, based on calculi with the merge operator and first-class traits, is a new statically-typed programming paradigm that addresses challenges like the Expression Problem and improves the modularity and extensibility of domain-specific languages.
   papers:
     - title: Imperative Compositional Programming
@@ -103,11 +109,11 @@
       link: https://i.cs.hku.hk/~bruno/papers/toplas2021.pdf
     - title: Shallow EDSLs and Object-Oriented Programming
       conf: "&lt;Programming&gt;'19"
-      link: https://i.cs.hku.hk/~bruno/papers/programming19shallow.pdf
+      link: https://doi.org/10.22152/programming-journal.org/2019/3/10
     - title: Typed First-Class Traits
       conf: ECOOP'18
       link: https://i.cs.hku.hk/~bruno/papers/traits.pdf
-- description: Our work presents a generalized definition of consistent subtyping in gradually-typed calculi with implicit polymorphism and applies type-directed operational semantics to <i>gradual typing</i>.
+- description: This line of work presents a generalized definition of consistent subtyping for gradually typed calculi with implicit polymorphism, and applies type-directed operational semantics to <i>gradual typing</i>.
   papers:
     - title: Merging Gradual Typing
       conf: OOPSLA'24
@@ -121,7 +127,7 @@
     - title: Consistent Subtyping for All
       conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/consistentTOPLAS.pdf
-- description: Our work <i>unifies typing and subtyping</i> in dependently-typed calculi, which still preserves decidable type checking.
+- description: This line of work <i>unifies typing and subtyping</i> in dependently-typed calculi, while preserving decidable type checking.
   papers:
     - title: A Dependently Typed Calculus with Polymorphic Subtyping
       conf: SCP
@@ -132,3 +138,56 @@
     - title: Unifying Typing and Subtyping
       conf: OOPSLA'17
       link: https://i.cs.hku.hk/~bruno/papers/oopsla17.pdf
+- description: This line of work investigates techniques for enhancing modularity in software development, with a particular emphasis on <i>object algebras</i>
+    - title: Pattern Matching in an Open World
+      conf: GPCE'18
+      link: https://doi.org/10.1145/3278122.3278124
+    - title: Castor: Programming with Extensible Generative Visitors
+      conf: Science of Computer Programming
+      link: https://doi.org/10.1016/j.scico.2020.102449
+    - title: FHJ: A Formal Model for Hierarchical Dispatching and Overriding
+      conf: ECOOP'18
+      link: https://doi.org/10.4230/LIPIcs.ECOOP.2018.20
+    - title: EVF: An Extensible and Expressive Visitor Framework for Programming Language Reuse
+      conf: ECOOP'17
+      link: https://doi.org/10.4230/LIPIcs.ECOOP.2017.29
+    - title: Type-Safe Modular Parsing
+      conf: SLE'17
+      link: https://doi.org/10.1145/3136014.3136016
+    - title: Modular Architecture for Code and Metadata Sharing
+      conf: MODULARITY'16
+      link: https://doi.org/10.1145/2889443.2889455
+    - title: The expression problem, trivially!
+      conf: MODULARITY'16
+      link: https://doi.org/10.1145/2889443.2889448
+    - title: Classless Java
+      conf: SIGPLAN Not.
+      link: https://doi.org/10.1145/3093335.2993238
+    - title: Scrap your Boilerplate with Object Algebras
+      conf: OOPSLA'15
+      link: https://doi.org/10.1145/2814270.2814279
+    - title: Memory-efficient Tail Calls in the JVM with Imperative Functional Objects
+      conf: APLAS'15
+      link: https://i.cs.hku.hk/~bruno/papers/APLAS2015.pdf
+    - title: Functional programming, object-oriented programming and algebras!
+      conf: WGP'14
+      link: https://doi.org/10.1145/2633628.2633637
+- description: The following works were carried out in close partnership with external collaborators. We are very thankful for their insights, generosity, and the opportunity to work together.
+    - title: VST-A: A Foundationally Sound Annotation Verifier
+      conf: POPL'24
+      link: https://doi.org/10.1145/3632911
+    - title: A Gradual Probabilistic Lambda Calculus
+      conf: OOPSLA'23
+      link: https://doi.org/10.1145/3586036
+    - title: Resolution as Intersection Subtyping via Modus Ponens
+      conf: OOPSLA'20
+      link: https://doi.org/10.1145/3428274
+    - title: Kind Inference for Datatypes
+      conf: POPL'19
+      link: https://doi.org/10.1145/3371121
+    - title: Separating Use and Reuse to Improve Both
+      conf: The Art, Science, and Engineering of Programming
+      link: https://doi.org/10.22152/programming-journal.org/2019/3/12
+    - title: Cochis: Stable and Coherent Implicits
+      conf: JFP
+      link: https://doi.org/10.1017/S0956796818000242
