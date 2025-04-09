@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hkuplg.github.io" # the base hostname & protocol for your site
 #twitter_username: hkuplg
 github_username:  hkuplg
-about: The programming languages group at The University of Hong Kong (HKU) conducts research on programming language design and implementation, especially about type systems.
+about: The Programming Languages Group at The University of Hong Kong (HKU) conducts research on programming language design and implementation, especially about type systems.
 location: The University of Hong Kong
 
 # Build settings

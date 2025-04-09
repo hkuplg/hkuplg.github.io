@@ -9,15 +9,15 @@
     - title: "Full Iso-Recursive Types"
       conf: OOPSLA'24
       link: https://i.cs.hku.hk/~bruno/papers/oopsla24_full.pdf
-    - title: A Calculus with Recursive Types, Record Concatenation and Subtyping
+    - title: "A Calculus with Recursive Types, Record Concatenation and Subtyping"
       conf: APLAS'22
       link: https://i.cs.hku.hk/~bruno/papers/aplas22recursive.pdf
-    - title: Revisiting Iso-Recursive Subtyping
+    - title: "Revisiting Iso-Recursive Subtyping"
       conf: TOPLAS
       link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
 - description: This line of work focuses on improving <i>bidirectional typing</i>, <i>type inference</i>, and formalization of subtyping.
   papers:
-    - title: Bidirectional Higher-Rank Polymorphism with Intersection and Union Types
+    - title: "Bidirectional Higher-Rank Polymorphism with Intersection and Union Types"
       conf: POPL'25
       link: https://doi.org/10.1145/3704907
     - title: Contextual Typing
@@ -29,7 +29,7 @@
     - title: Elementary Type Inference
       conf: ECOOP'22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary_full.pdf
-    - title: A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference
+    - title: "A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference"
       conf: ICFP'19
       link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
     - title: Let Arguments Go First
@@ -40,7 +40,7 @@
       link: https://i.cs.hku.hk/~bruno/papers/itp2018.pdf
 - description: This line of work explores the duality between intersection and union types and aims to simplify their metatheories.
   papers:
-    - title: Named Arguments as Intersections, Optional Arguments as Unions
+    - title: "Named Arguments as Intersections, Optional Arguments as Unions"
       conf: ESOP'25
       link: https://i.cs.hku.hk/~bruno/papers/esop25named.pdf
     - title: Disjoint Polymorphism with Intersection and Union Types
@@ -49,7 +49,7 @@
     - title: Union Types with Disjoint Switches
       conf: ECOOP'22
       link: https://i.cs.hku.hk/~bruno/papers/ecoop22switches.pdf
-    - title: Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)
+    - title: "Distributing Intersection and Union Types with Splits and Duality (Functional Pearl)"
       conf: ICFP'21
       link: https://doi.org/10.1145/3473594
     - title: The Duality of Subtyping
@@ -151,7 +151,7 @@
     - title: "EVF: An Extensible and Expressive Visitor Framework for Programming Language Reuse"
       conf: ECOOP'17
       link: https://doi.org/10.4230/LIPIcs.ECOOP.2017.29
-    - title: Type-Safe Modular Parsing
+    - title: "Type-Safe Modular Parsing"
       conf: SLE'17
       link: https://doi.org/10.1145/3136014.3136016
     - title: Modular Architecture for Code and Metadata Sharing
@@ -166,10 +166,10 @@
     - title: Scrap your Boilerplate with Object Algebras
       conf: OOPSLA'15
       link: https://doi.org/10.1145/2814270.2814279
-    - title: Memory-efficient Tail Calls in the JVM with Imperative Functional Objects
+    - title: "Memory-efficient Tail Calls in the JVM with Imperative Functional Objects"
       conf: APLAS'15
       link: https://i.cs.hku.hk/~bruno/papers/APLAS2015.pdf
-    - title: Functional programming, object-oriented programming and algebras!
+    - title: "Functional programming, object-oriented programming and algebras!"
       conf: WGP'14
       link: https://doi.org/10.1145/2633628.2633637
 - description: The following works were carried out in close partnership with external collaborators. We are very thankful for their insights, generosity, and the opportunity to work together.
