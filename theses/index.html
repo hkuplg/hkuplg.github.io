@@ -1,26 +1,18 @@
 ---
 layout: default
+title: Theses
 ---
 
 <div class="home">
+  <h2 class="page-heading">List of Theses</h2>
 
-    <h2 class="page-heading">List of Seminar Talks</h2>
-
-    <ul>
-        {% for post in site.posts %}
-        {% assign currentdate = post.date | date: "%Y" %}
-        {% if currentdate != date %}
-        <br/>
-        <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
-        {% assign date = currentdate %}
-        {% endif %}
-        <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.title }}</a>
-            {{ post.authors }} {{ post.Speaker }}
-            <small>{{ post.date | date: "%Y/%-m/%-d" }}</small>
-        </li>
-        {% endfor %}
-    </ul>
-
+  <ul>
+    {% for thesis in site.data.theses %}
+      <li>
+        <a href="{{ thesis.link }}" target="_blank">{{ thesis.title }}</a>
+        <br>
+        {{ thesis.name }} &ndash; <small>{{ thesis.info }}</small>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
