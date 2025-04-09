@@ -59,72 +59,72 @@
   date: 2018-07-11
   author: 孫耀珠
 - title: "Well-founded Recursion"
-  link: https://vinalx.github.io/2021/10/01/well-founded-recursion
+  link: https://vinalx.github.io/articles/2021/10/general-recursions
   date: 2021-10-01
   abs: Generalizing structural recursion for languages with termination checker, part 1
   author: VinaLx
 - title: "Learning note of Ltac2"
-  link: https://vinalx.github.io/2020/05/03/learning-note-of-ltac2
+  link: https://vinalx.github.io/articles/2020/05/ltac2-intro
   date: 2020-05-03
   abs: Organizing what's in the official documentation
   author: VinaLx
 - title: "Inductive type and W Type"
-  link: https://vinalx.github.io/2019/03/10/inductive-type-and-w-type
+  link: https://vinalx.github.io/articles/2019/03/w-type
   date: 2019-03-10
   abs: Generalizing inductive types
   author: VinaLx
 - title: "Lens - Exploring and Learning - 1"
-  link: https://vinalx.github.io/2018/11/28/lens-exploring-and-learning-1
+  link: https://vinalx.github.io/articles/2018/11/haskell-lens-1
   date: 2018-11-28
   abs: Introduction / Abstractions of "setter"s and "getter"s.
   author: VinaLx
 - title: "Adjoint Functor"
-  link: https://vinalx.github.io/2018/11/27/adjoint-functor
+  link: https://vinalx.github.io/articles/2018/11/adjoint-functor
   date: 2018-11-27
   abs: Notes on the category theory concept.
   author: VinaLx
 - title: "C++ Higher-order Meta-function"
-  link: https://vinalx.github.io/2018/11/25/cpp-higher-order-meta-function
+  link: https://vinalx.github.io/articles/2018/11/cpp-higher-order-meta-function
   date: 2018-11-25
   abs: Some simple template tricks
   author: VinaLx
 - title: "Agda Learning Note"
-  link: https://vinalx.github.io/2018/06/05/agda-learning-note
+  link: https://vinalx.github.io/articles/2018/06/agda-learning-note
   date: 2018-06-05
   abs: Notes on agda core language and standard library.
   author: VinaLx
 - title: "Bash Notes"
-  link: https://vinalx.github.io/2018/05/07/bash-notes
+  link: https://vinalx.github.io/articles/2018/05/bash-note
   date: 2018-05-07
   abs: Notes on the bash language
   author: VinaLx
 - title: "My C++ Style Guide"
-  link: https://vinalx.github.io/2018/03/30/my-cpp-style-guide
+  link: https://vinalx.github.io/articles/2018/03/google-cpp-style
   date: 2018-03-30
   abs: My C++ coding style mostly based on Google C++ Style Guide
   author: VinaLx
 - title: "Haskell Monad Basic - 5"
-  link: https://vinalx.github.io/2017/12/01/haskell-monad-basic-5
+  link: https://vinalx.github.io/articles/2017/12/haskell-basic-monad-5
   date: 2017-12-01
   abs: Monad Transformer
   author: VinaLx
 - title: "Haskell Monad Basic - 4"
-  link: https://vinalx.github.io/2017/11/25/haskell-monad-basic-4
+  link: https://vinalx.github.io/articles/2017/11/haskell-basic-monad-4
   date: 2017-11-25
   abs: Reader, Writer and State
   author: VinaLx
 - title: "Haskell Monad Basic - 3"
-  link: https://vinalx.github.io/2017/09/13/haskell-monad-basic-3
+  link: https://vinalx.github.io/articles/2017/09/haskell-basic-monad-3
   date: 2017-09-13
   abs: Monad and its "super classes"
   author: VinaLx
 - title: "Haskell Monad Basic - 2"
-  link: https://vinalx.github.io/2017/09/08/haskell-monad-basic-2
+  link: https://vinalx.github.io/articles/2017/09/haskell-basic-monad-2
   date: 2017-09-08
   abs: value and context, basic examples on List, Maybe and Either
   author: VinaLx
 - title: "Haskell Monad Basic - 1"
-  link: https://vinalx.github.io/2017/09/07/haskell-monad-basic-1
+  link: https://vinalx.github.io/articles/2017/09/haskell-basic-monad
   date: 2017-09-07
   abs: motivation, introduction, definition of Monad and the "do" notation
   author: VinaLx
