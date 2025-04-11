@@ -9,4 +9,21 @@ layout: default
     </li>
     <li><a href="https://packagecontrol.io/packages/F2J%20-%20FCore%20to%20Java">F2​J - FCore to Java</a>
     </li>
+    <li><a href="https://hkuplg.github.io/fcore/">FCore</a>
+    </li>
+</ul>
+
+
+<h3>List of Code Repositories</h3>
+
+<ul>
+    {% for pi in site.data.projects %}
+    <li>
+        <a href="{{ pi.link }}">{{ pi.name }}</a>
+        {% if pi.description %}
+        <br><small>{{ pi.description }}</small>
+        {% endif %}
+        <br>
+    </li>
+    {% endfor %}
 </ul>

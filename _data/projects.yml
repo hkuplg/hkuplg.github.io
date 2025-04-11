@@ -1,3 +1,15 @@
 - name: FCore
   link: https://github.com/hkuplg/fcore
   description: Research middleware compiler from System F-based languages to Java with the Imperative Functional Object encoding.
+- name: ShyFramework
+  link: https://github.com/hy-zhang/ShyFramework
+  description: This repository contains the implementation of Shy related to "Scrap Your Boilerplate with Object Algebras"
+- name: EmbeddedDSL
+  link: https://github.com/EmmaBYPeng/EmbeddedDSL
+  description: Composable algebra with dependencies
+- name: FParser
+  link: https://github.com/hkuplg/FParser
+  description: A monadic parser combinators library implementation in F2J (FCore to Java). (Master Dissertation Project)
+- name: Efficient Parser and Pretty Printer Combinators in F2J
+  link: https://github.com/xiafan-su/Dissertation-Report
+  description: Master Dissertation by Yuteng Zhong, Yi Li, and Fan Xia
