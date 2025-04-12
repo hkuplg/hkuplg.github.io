@@ -1,3 +1,21 @@
+- name: Ming-Tian (Skylee) Yang
+  title: 2024-
+  link: https://skylee.xyz/
+- name: Han Xu
+  title: 2021-2023
+  link: https://sec-r.github.io/
+- name: Andong Fan
+  title: 2021-2022
+  link: https://www.andongfan.com/
+- name: Utkarsh Dhandhania
+  title: 2021-2022
+  link: https://www.linkedin.com/in/utkarshdhandhania
+- name: Shaobo Cui
+  title: Summer 2018
+  link: https://www.linkedin.com/in/shaobo-cui-a942a0107/
+- name: Boya (Emma) Peng
+  title: Summer 2015
+  link: https://emmabypeng.github.io/
 - name: Yuteng (Elton) Zhong
   title: 2014-2015
   link: http://zonyitoo.me/
@@ -7,9 +25,6 @@
 - name: Yi (Lyndon) Li
   title: 2014-2015
   link: https://dynastywind.github.io/
-- name: Boya (Emma) Peng
-  title: Summer 2015
-  link: https://emmabypeng.github.io/
 # Following are some old names w/o details
 #- name: Benjamin
 #- name: Zhenrui Zhang
@@ -18,15 +33,3 @@
 #- name: Gabriel Li
 #  link: https://github.com/dynastywind
 #
-- name: Shaobo Cui
-  title: Summer 2018
-  link: https://www.linkedin.com/in/shaobo-cui-a942a0107/
-- name: Utkarsh Dhandhania
-  title: 2021-2022
-  link: https://www.linkedin.com/in/utkarshdhandhania
-- name: Andong Fan
-  title: 2021-2022
-  link: https://www.andongfan.com/
-- name: Han Xu
-  title: 2021-2023
-  link: https://sec-r.github.io/
