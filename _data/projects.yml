@@ -1,3 +1,12 @@
+- name: Recursive Subtyping for All (Artifacts)
+  link: https://github.com/juda/Recursive-Subtyping-for-All
+  description: The Coq formalization of paper "Recursive Subtyping for All".
+- name: Nested Composition (Artifact)
+  link: https://github.com/bixuanzju/nested-composition
+  description: The Coq formalization of paper "The Essence of Nested Composition".
+- name: Type-Safe Modular Parsing
+  link: https://github.com/lihuanglx/modular-parsing
+  description: In Scala
 - name: FCore
   link: https://github.com/hkuplg/fcore
   description: Research middleware compiler from System F-based languages to Java with the Imperative Functional Object encoding.
