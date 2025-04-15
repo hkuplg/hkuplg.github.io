@@ -22,22 +22,6 @@
   link: https://types.hk/posts/2021-01-01-plt-redex.html
   date: 2021-01-01
   author: Xu Xue
-- title: "多态的多态"
-  link: https://blog.yzsun.me/polymorphic-polymorphism/
-  date: 2021-12-31
-  author: 孫耀珠
-- title: "HTML 模板语言纵览"
-  link: https://blog.yzsun.me/html-templating/
-  date: 2020-08-09
-  author: 孫耀珠
-- title: "Megaparsec: Haskell 的语法分析组合子 (译文)"
-  link: https://blog.yzsun.me/megaparsec/
-  date: 2019-11-24
-  author: 孫耀珠
-- title: "关于 REST 的思考"
-  link: https://blog.yzsun.me/restful/
-  date: 2018-07-11
-  author: 孫耀珠
 - title: "Well-founded Recursion"
   link: https://vinalx.github.io/articles/2021/10/general-recursions
   date: 2021-10-01
