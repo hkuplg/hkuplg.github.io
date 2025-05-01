@@ -28,10 +28,10 @@
       link: https://doi.org/10.1145/3622871
     - title: Elementary Type Inference
       conf: ECOOP'22
-      link: https://i.cs.hku.hk/~bruno/papers/ecoop22elementary_full.pdf
+      link: https://doi.org/10.4230/LIPIcs.ECOOP.2022.2
     - title: "A Mechanical Formalization of Higher-Ranked Polymorphic Type Inference"
       conf: ICFP'19
-      link: https://i.cs.hku.hk/~bruno/papers/icfp2019.pdf
+      link: https://doi.org/10.1145/3341716
     - title: Let Arguments Go First
       conf: ESOP'18
       link: https://i.cs.hku.hk/~bruno/papers/arguments-esop18.pdf
