@@ -1,26 +1,26 @@
 - title: "De Bruijn indices, in TAPL or PLFA style?"
-  link: https://types.hk/posts/2024-03-20-debruijn.html
-  date: 2024-03-20
+  link: https://types.hk/blog/debruijn
+  date: 2024-03-19
   author: Xu Xue
 - title: "\\x.x is not polymorphic?"
-  link: https://types.hk/posts/2023-08-23-id-function-poly.html
-  date: 2023-08-23
+  link: https://types.hk/blog/id-function-poly
+  date: 2023-08-22
   author: Xu Xue
 - title: "Formalise your type system, intrinsically"
-  link: https://types.hk/posts/2023-04-27-intrinsic.html
-  date: 2023-04-27
+  link: https://types.hk/blog/intrinsic
+  date: 2023-04-26
   author: Xu Xue
 - title: "On eliminating nat"
-  link: https://types.hk/posts/2021-12-25-eliminating-nat.html
-  date: 2021-12-25
+  link: https://types.hk/blog/eliminating-nat
+  date: 2021-12-24
   author: Xu Xue
 - title: "Occurrence Typing in Typed Racket"
-  link: https://types.hk/posts/2021-11-12-occurrence.html
-  date: 2021-11-12
+  link: https://types.hk/blog/occurrence
+  date: 2021-11-11
   author: Xu Xue
 - title: "Notes on PLT Redex"
-  link: https://types.hk/posts/2021-01-01-plt-redex.html
-  date: 2021-01-01
+  link: https://types.hk/blog/plt-redex
+  date: 2020-12-31
   author: Xu Xue
 - title: "Well-founded Recursion"
   link: https://vinalx.github.io/articles/2021/10/general-recursions
