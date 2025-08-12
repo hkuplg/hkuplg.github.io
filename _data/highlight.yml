@@ -175,6 +175,9 @@
       link: https://doi.org/10.1145/2633628.2633637
 - description: The following works were carried out in close partnership with external collaborators. We are very thankful for their insights, generosity, and the opportunity to work together.
   papers:
+    - title: "Normalization by Evaluation for Non-cumulativity"
+      conf: ICFP'25
+      link: https://doi.org/10.1145/3747508
     - title: "VST-A: A Foundationally Sound Annotation Verifier"
       conf: POPL'24
       link: https://doi.org/10.1145/3632911
