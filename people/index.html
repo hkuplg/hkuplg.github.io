@@ -26,6 +26,7 @@ layout: default
     <br>
         {{ pi.title }}
     <small>{{ pi.year }}</small>
+    {% if pi.note %}<br><small style="font-size:90%;color:gray;">{{ pi.note }}</small>{% endif %}
     </li>
     {% endfor %}
 </ul>
