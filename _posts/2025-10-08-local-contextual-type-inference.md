@@ -2,7 +2,7 @@
 layout:  post 
 title:   Local Contextual Type Inference
 authors: Xu Xue
-date:    2025-10-08 10:10:00 +0800
+date:    2025-10-08 09:30:00 +0800
 venue:   CB308
 --- 
 
