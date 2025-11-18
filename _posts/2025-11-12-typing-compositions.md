@@ -2,7 +2,7 @@
 layout:  post 
 title:   Typing Compositions, Locally
 authors: Chen Cui
-date:    2025-11-12 09:30:00 +0800
+date:    2025-11-19 09:30:00 +0800
 venue:   CB308
 --- 
 
