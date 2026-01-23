@@ -17,6 +17,9 @@
       link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
 - description: This line of work focuses on improving <i>bidirectional typing</i>, <i>type inference</i>, and formalization of subtyping.
   papers:
+    - title: "Local Contextual Type Inference"
+      conf: POPL'26
+      link: https://doi.org/10.1145/3776653
     - title: "Bidirectional Higher-Rank Polymorphism with Intersection and Union Types"
       conf: POPL'25
       link: https://doi.org/10.1145/3704907
