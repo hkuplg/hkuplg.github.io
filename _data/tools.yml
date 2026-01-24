@@ -1,0 +1,15 @@
+- name: Type Inference Zoo
+  link: https://zoo.cuichen.cc/
+  description: Explore with Type Inference Algorithms
+
+- name: CP Playground
+  link: https://plground.org/
+  description: The in-browser implementation of Compositional Programming
+
+- name: F2J - FCore to Java
+  link: https://packagecontrol.io/packages/F2J%20-%20FCore%20to%20Java
+  description: A compiler from FCore to Java
+
+- name: FCore
+  link: https://hkuplg.github.io/fcore/
+  description: A functional core language

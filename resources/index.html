@@ -1,0 +1,62 @@
+---
+layout: default
+title: Resources
+---
+
+<h2 class="page-heading">Resources</h2>
+
+<div class="resource-section">
+    <h3 class="section-title">Softwares & Tools</h3>
+    <ul class="resource-list-compact">
+        {% for tool in site.data.tools %}
+        <li>
+            <a href="{{ tool.link }}">{{ tool.name }}</a>
+            {% if tool.description %}
+            <span>: {{ tool.description }}</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="resource-section">
+    <h3 class="section-title">Code Repositories</h3>
+    <ul class="resource-list-compact">
+        {% for pi in site.data.projects %}
+        <li>
+            <a href="{{ pi.link }}">{{ pi.name }}</a>
+            {% if pi.description %}
+            <span>: {{ pi.description }}</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="resource-section">
+    <h3 class="section-title">Media & Talks</h3>
+    <ul class="resource-list-compact">
+        {% for item in site.data.media %}
+        <li>
+            <a href="{{ item.link }}">{{ item.title }}</a>
+            {% if item.venue %}
+            <span>, {{ item.venue }}</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="resource-section">
+    <h3 class="section-title">Final Year Projects</h3>
+    <ul class="resource-list-compact">
+        {% for project in site.data.theses_projects %}
+        <li>
+            <a href="{{ project.link }}">{{ project.title }}</a>
+            {% if project.year %}
+            <span> ({{ project.year }})</span>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

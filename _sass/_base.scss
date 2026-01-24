@@ -34,48 +34,7 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
-
-
-/**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-    // list-style: none;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
-
-
+/* ... */
 
 /**
  * Headings
