@@ -1,20 +1,3 @@
-- description: This line of work introduces new designs for <i>iso-recursive subtyping</i> and explores their integration with various language features.
-  papers:
-    - title: Recursive Subtyping for All
-      conf: JFP
-      link: https://i.cs.hku.hk/~bruno/papers/jfp25.pdf
-    - title: "QuickSub: Efficient Iso-Recursive Subtyping"
-      conf: POPL'25
-      link: https://i.cs.hku.hk/~bruno/papers/popl25_quicksub.pdf
-    - title: "Full Iso-Recursive Types"
-      conf: OOPSLA'24
-      link: https://i.cs.hku.hk/~bruno/papers/oopsla24_full.pdf
-    - title: "A Calculus with Recursive Types, Record Concatenation and Subtyping"
-      conf: APLAS'22
-      link: https://i.cs.hku.hk/~bruno/papers/aplas22recursive.pdf
-    - title: "Revisiting Iso-Recursive Subtyping"
-      conf: TOPLAS
-      link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
 - description: This line of work focuses on improving <i>bidirectional typing</i>, <i>type inference</i>, and formalization of subtyping.
   papers:
     - title: "Local Contextual Type Inference"
@@ -41,6 +24,23 @@
     - title: Formalization of a Polymorphic Subtyping Algorithm
       conf: ITP'18
       link: https://i.cs.hku.hk/~bruno/papers/itp2018.pdf
+- description: This line of work introduces new designs for <i>iso-recursive subtyping</i> and explores their integration with various language features.
+  papers:
+    - title: Recursive Subtyping for All
+      conf: JFP
+      link: https://i.cs.hku.hk/~bruno/papers/jfp25.pdf
+    - title: "QuickSub: Efficient Iso-Recursive Subtyping"
+      conf: POPL'25
+      link: https://i.cs.hku.hk/~bruno/papers/popl25_quicksub.pdf
+    - title: "Full Iso-Recursive Types"
+      conf: OOPSLA'24
+      link: https://i.cs.hku.hk/~bruno/papers/oopsla24_full.pdf
+    - title: "A Calculus with Recursive Types, Record Concatenation and Subtyping"
+      conf: APLAS'22
+      link: https://i.cs.hku.hk/~bruno/papers/aplas22recursive.pdf
+    - title: "Revisiting Iso-Recursive Subtyping"
+      conf: TOPLAS
+      link: https://i.cs.hku.hk/~bruno/papers/toplas2022.pdf
 - description: This line of work explores the duality between intersection and union types and aims to simplify their metatheories.
   papers:
     - title: "Named Arguments as Intersections, Optional Arguments as Unions"
@@ -60,6 +60,9 @@
       link: https://i.cs.hku.hk/~bruno/papers/duo_ecoop2020.pdf
 - description: This line of work explores the theoretical aspects of the <i>merge operator</i> and develops novel notions such as <i>disjoint intersection types</i>, <i>disjoint polymorphism</i>, <i>nested composition</i>, <i>disjoint switches</i>, <i>type difference</i>, <i>dependent merges</i>, and <i>type-directed operational semantics</i>.
   papers:
+    - title: Liberating Merges via Apartness and Guarded Subtyping
+      conf: OOPSLA'25
+      link: https://doi.org/10.1145/3763057
     - title: Disjoint Polymorphism with Intersection and Union Types
       conf: FTfJP'24
       link: https://doi.org/10.1145/3580438
@@ -101,6 +104,9 @@
       link: https://doi.org/10.1145/2951913.2951945
 - description: <i>Compositional Programming</i>, based on calculi with the merge operator and first-class traits, is a new statically-typed programming paradigm that addresses challenges like the Expression Problem and improves the modularity and extensibility of domain-specific languages.
   papers:
+    - title: Type-Safe Compilation of Dynamic Inheritance via Merging
+      conf: TOPLAS
+      link: https://i.cs.hku.hk/~bruno/papers/TOPLAS25.pdf
     - title: Imperative Compositional Programming
       conf: OOPSLA'24
       link: https://i.cs.hku.hk/~bruno/papers/oopsla24_imperative.pdf
