@@ -2,32 +2,53 @@
 layout: default
 ---
 
-<div class="home">
+<div class="seminars-page">
 
-    <h2 class="page-heading">List of Seminar Talks</h2>
+    <header class="seminars-header">
+        <h1 class="seminars-title">Seminar Talks</h1>
+        <p class="seminars-note">See also <a href="https://github.com/hkuplg/seminar-talks/tree/master">slides</a>, <a href="https://github.com/hkuplg/book-reading">book reading</a>, and <a href="https://github.com/hkuplg/hkuplg.github.io/blob/master/_includes/paper-reading.md">paper reading</a> (not recently updated).</p>
+    </header>
 
-    Slides to be found at
-    <a href="https://github.com/hkuplg/seminar-talks/tree/master">seminar-talks</a>.
+    <nav class="year-nav">
+        {% assign defined_years = "" %}
+        {% for post in site.posts %}
+            {% assign post_year = post.date | date: "%Y" %}
+            {% unless defined_years contains post_year %}
+                {% assign defined_years = defined_years | append: post_year | append: "," %}
+                <a href="#y{{ post_year }}">{{ post_year }}</a>
+            {% endunless %}
+        {% endfor %}
+    </nav>
 
-    Other past events include
-    <a href="https://github.com/hkuplg/book-reading">booking reading</a> and
-    <a href="https://github.com/hkuplg/hkuplg.github.io/blob/master/_includes/paper-reading.md">paper reading</a>.
-
-  <ul>
+    <div class="seminars-timeline">
     {% for post in site.posts %}
-    {% assign currentdate = post.date | date: "%Y" %}
-    {% if currentdate != date %}
-    <br/>
-    <h3 id="y{{currentdate}}">{{ currentdate }}</h3>
-    {% assign date = currentdate %}
-    {% endif %}
-      <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">
-            {{ post.title }}</a>
-          {{ post.authors }} {{ post.Speaker }}
-          <small>{{ post.date | date: "%Y/%-m/%-d" }}</small>
-      </li>
+        {% assign currentdate = post.date | date: "%Y" %}
+        {% if currentdate != date %}
+        <div class="year-section">
+            <h2 class="year-heading" id="y{{currentdate}}">{{ currentdate }}</h2>
+        </div>
+        {% assign date = currentdate %}
+        {% endif %}
+        <article class="seminar-card">
+            <div class="seminar-date">
+                <span class="date-day">{{ post.date | date: "%-d" }}</span>
+                <span class="date-month">{{ post.date | date: "%b" }}</span>
+            </div>
+            <div class="seminar-content">
+                <h3 class="seminar-title">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h3>
+                <div class="seminar-meta">
+                    {% if post.authors or post.Speaker %}
+                    <span class="seminar-speaker">{{ post.authors }}{{ post.Speaker }}</span>
+                    {% endif %}
+                    {% if post.venue %}
+                    <span class="seminar-venue">{{ post.venue }}</span>
+                    {% endif %}
+                </div>
+            </div>
+        </article>
     {% endfor %}
-  </ul>
+    </div>
 
 </div>

@@ -324,3 +324,180 @@
         // font-weight: 400; // Inherit from body (300)
     }
 }
+
+/**
+ * Seminars Page
+ */
+.seminars-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.seminars-header {
+    margin-bottom: 25px;
+}
+
+.seminars-title {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: $grey-color-dark;
+    margin-bottom: 5px;
+}
+
+.seminars-note {
+    font-size: 0.9em;
+    color: $grey-color;
+    margin: 0;
+}
+
+.year-nav {
+    font-size: 0.85em;
+    color: $grey-color;
+    margin-bottom: 20px;
+
+    a {
+        color: $grey-color;
+        text-decoration: none;
+        margin-right: 10px;
+
+        &:hover {
+            color: $brand-color;
+        }
+    }
+}
+
+.seminars-timeline {
+    position: relative;
+}
+
+.year-section {
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+.year-heading {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: $grey-color-dark;
+    padding-bottom: 6px;
+    border-bottom: 2px solid $brand-color;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.seminar-card {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid lighten($grey-color-light, 10%);
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.seminar-date {
+    flex-shrink: 0;
+    width: 45px;
+    text-align: center;
+
+    .date-day {
+        display: block;
+        font-size: 1.3em;
+        font-weight: 500;
+        color: $brand-color;
+        line-height: 1.1;
+    }
+
+    .date-month {
+        display: block;
+        font-size: 0.75em;
+        color: $grey-color;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+}
+
+.seminar-content {
+    flex: 1;
+    min-width: 0;
+    padding-top: 2px;
+}
+
+.seminar-title {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 2px;
+    line-height: 1.4;
+
+    a {
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+            color: $brand-color;
+        }
+    }
+}
+
+.seminar-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 12px;
+    font-size: 0.85em;
+    color: $grey-color;
+}
+
+.seminar-speaker {
+    &::before {
+        content: "";
+    }
+}
+
+.seminar-venue {
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        background-color: $grey-color-light;
+        border-radius: 50%;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+}
+
+@include media-query($on-palm) {
+    .seminars-header {
+        margin-bottom: 20px;
+    }
+
+    .seminars-title {
+        font-size: 1.5em;
+    }
+
+    .seminar-card {
+        gap: 12px;
+        padding: 8px 0;
+    }
+
+    .seminar-date {
+        width: 40px;
+
+        .date-day {
+            font-size: 1.2em;
+        }
+    }
+
+    .seminar-title {
+        font-size: 0.95em;
+    }
+
+    .seminar-meta {
+        font-size: 0.8em;
+    }
+}
