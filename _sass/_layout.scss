@@ -33,6 +33,18 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        display: inline-block;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 2px;
+        transition: color 0.15s ease, border-color 0.15s ease;
+
+        &:hover,
+        &:focus-visible,
+        &.is-active {
+            color: $brand-color;
+            text-decoration: none;
+            border-bottom-color: rgba($brand-color, 0.6);
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -322,6 +334,59 @@
 
     a {
         // font-weight: 400; // Inherit from body (300)
+    }
+}
+
+/**
+ * Theses Page
+ */
+.theses-page {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.theses-header {
+    margin-bottom: 15px;
+}
+
+.theses-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thesis-item {
+    padding: 8px 0;
+    border-bottom: 1px solid $grey-color-light;
+    background-color: transparent;
+}
+
+.thesis-item:last-child {
+    border-bottom: 0;
+}
+
+.thesis-title {
+    display: inline-block;
+    font-size: 1.05em;
+    font-weight: 500;
+    color: $brand-color;
+
+    &:hover {
+        color: darken($brand-color, 10%);
+        text-decoration: underline;
+    }
+}
+
+.thesis-meta {
+    margin-top: 4px;
+    font-size: 0.9em;
+    color: $grey-color-dark;
+    display: flex;
+    flex-wrap: wrap;
+    span + span {
+        margin-left: 8px;
+        padding-left: 8px;
+        border-left: 1px solid $grey-color-light;
     }
 }
 

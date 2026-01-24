@@ -3,15 +3,21 @@ layout: default
 title: Theses
 ---
 
-<div class="home">
-  <h2 class="page-heading">List of Theses</h2>
+<div class="theses-page">
+  <div class="theses-header">
+    <h2 class="page-heading">Theses completed by group members</h2>
+  </div>
 
-  <ul>
+  <ul class="theses-list">
     {% for thesis in site.data.theses %}
-      <li>
-        <a href="{{ thesis.link }}" target="_blank">{{ thesis.title }}</a>
-        <br>
-        {{ thesis.name }} &ndash; <small>{{ thesis.info }}</small>
+      <li class="thesis-item">
+        <a class="thesis-title" href="{{ thesis.link }}" target="_blank" rel="noopener">
+          {{ thesis.title }}
+        </a>
+        <div class="thesis-meta">
+          <span class="thesis-author">{{ thesis.name }}</span>
+          <span class="thesis-info">{{ thesis.info }}</span>
+        </div>
       </li>
     {% endfor %}
   </ul>
