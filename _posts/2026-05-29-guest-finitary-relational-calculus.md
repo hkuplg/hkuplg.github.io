@@ -11,7 +11,7 @@ categories: guest 2026
 
 We show that all relational first-order logic queries can be effectively evaluated on finite/cofinite relations. Finite/cofinite relations are finite unions of Cartesian products of finite and cofinite sets. This works without any safety restrictions on formulas as in classical relational calculus. It relies on a translation to a relational algebra that includes an unrestricted complement operator and uses term rewriting on tensor terms, which are generally useful as compact data structures, also in conventional database systems.
 
-In ongoing work we are working on extending new practically efficient and worst-case optimal algebraic join query techniques to make query execution as efficient on finite/cofinite relations as ordinary database query evaluation on finite relations.
+In ongoing work we are extending new practically efficient and worst-case optimal algebraic join query techniques to make query execution as efficient on finite/cofinite relations as ordinary database query evaluation on finite relations.
 
 Joint work with Mikkel Kragh Mathiesen, Mads Rehof and Thomas Surlykke.
 
