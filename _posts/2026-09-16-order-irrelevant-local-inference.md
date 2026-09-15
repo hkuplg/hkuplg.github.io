@@ -2,7 +2,7 @@
 layout:  post
 title:   "Order-Irrelevant Local Type Inference via Inference Closures"
 authors: "Chen Cui"
-date:    2026-09-16 09:30:00 +0800
+date:    2026-09-23 09:30:00 +0800
 venue:   "CB308"
 ---
 
